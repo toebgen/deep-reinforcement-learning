@@ -1,4 +1,5 @@
 import numpy as np
+import random
 from collections import defaultdict
 
 class Agent:
@@ -12,6 +13,7 @@ class Agent:
         """
         self.nA = nA
         self.Q = defaultdict(lambda: np.zeros(self.nA))
+        self.epsilon = 0.005
 
     def select_action(self, state):
         """ Given the state, select an action.
@@ -24,8 +26,13 @@ class Agent:
         =======
         - action: an integer, compatible with the task's action space
         """
-        return np.random.choice(self.nA)
-
+        if random.random() > self.epsilon:
+            # select greedy action with probability epsilon
+            return np.argmax(self.Q[state])
+        else:
+            # otherwise, select an action randomly
+            return np.random.choice(self.nA)
+        
     def step(self, state, action, reward, next_state, done):
         """ Update the agent's knowledge, using the most recently sampled tuple.
 
