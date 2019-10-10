@@ -84,12 +84,6 @@ An example would be:
 The velocity of the agent is two dimensional:
 left/right velocity (usually near 0) and forward/backward velocity (0 to 11.2).
 
-### Implementation
+### Implementation and Learning Algorithm
 
-The submission includes a file in the root of the GitHub repository or zip file (one of Report.md, Report.ipynb, or Report.pdf) that provides a description of the implementation.
-> Should be the Notebook!?
-
-### Learning Algorithm
-
-The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.
-> Write some prosa in the Notebook!
+Details can be found in the [report](Navigation.html) and [Jupyter notebook](Navigation.ipynb), respectively.
