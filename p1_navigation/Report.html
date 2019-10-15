@@ -13441,6 +13441,35 @@ States have length: 37
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Deep-Q-Network-algorithm">Deep Q-Network algorithm<a class="anchor-link" href="#Deep-Q-Network-algorithm">&#182;</a></h4><p>The Deep Q-Learning (DQN) algorithm is a technique to learn the action value function $Q(s,a)$.
+It is basically an online version of a neural fitted-value iteration <a href="https://link.springer.com/chapter/10.1007/11564096_32">paper</a> of 2005 (Riedmiller):
+Training of a Q-value function represented by a Multi-Layered Perceptron.
+In sloppy terms, this function can be referred to as the <em>Cheat Sheet Q</em>, which tells the agent which action $a$ will yield the highest reward $R$ in a given situation $s$.</p>
+<p>In <em>Q-Learning</em> (which is the pioneer technique for DQN) the $Q$-table is supposed to provide actions for the whole state space $S$ and action space $A$, i.e. it will ultimately know the value of each possible action in each possible situation.
+This can easily become too large in terms of memory and computational requirements.
+This is where <em>Deep Q-Learning</em> comes in:
+Instead of trying to learn the complete $Q$-table, a deep network is used to approximate $Q(s,a)$.</p>
+<p>The useful additions of the Deep Q-Network compared to plain Q-Learning algorithm are:</p>
+<ul>
+<li>Use of rolling history of past data: <em>Experience Replay</em></li>
+<li>Use of a target network to represent the old Q-Function, which is used to calculate the loss of every action during training: <em>Fixed Q-Targets</em></li>
+</ul>
+<p>This helps smoothing out the behaviors, avoiding oscillations, and prevents the value estimates to get out of control.
+Overall, this allows RL-agents to converge more reliably during training.</p>
+<p>The algorithm can be sketched out with following steps:</p>
+<ol>
+<li><em>Initialization</em> of Replay memory $D$, Action value function $\hat{q}$ and Target action-value weights $\vec{w}^{-} \leftarrow \, \vec{w}$</li>
+<li><em>Sample</em> an action using an $\epsilon$-greedy policy, observe reward and next state, and store the new experience tuple in replay memory</li>
+<li><em>Learn</em> (i.e. update the weights) periodically after several experiences (minibatches), not after every new experience</li>
+<li>Repeat 2. and 3. for number of episodes</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Agent">Agent<a class="anchor-link" href="#Agent">&#182;</a></h4><p>The class <code>Agent</code> is taken from class exercise code.
 It provides necessary methods to interact with the environment, following the Deep Q-Learning algorithm with Fixed Q-Targets and Experience Replay extensions (as discussed in class).</p>
 <p>The class most importantly holds a <code>ReplayBuffer</code> with 1000 entries to store experience tuples, that also supports random sampling, and two <code>QNetwork</code>s, in order to decouple targets from network parameters.</p>

@@ -61,6 +61,7 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 ## Submission
 
 In this section all required information as per [project rubric](https://review.udacity.com/#!/rubrics/1889/view) is provided.
+All files can be found in folder [p1_navigation](https://github.com/toebgen/deep-reinforcement-learning/tree/master/p1_navigation) of the repository.
 
 ### Project Details
 
@@ -87,3 +88,11 @@ left/right velocity (usually near 0) and forward/backward velocity (0 to 11.2).
 ### Implementation and Learning Algorithm
 
 Details can be found in the [report](Navigation.html) and [Jupyter notebook](Navigation.ipynb), respectively.
+
+### Dependencies
+
+- Python 3.6
+- PyTorch
+- Numpy
+- Matplotlib
+- Specific (Udacity) unity banana environment, based on [Unity Machine Learning Agents (ML-Agents)](https://github.com/Unity-Technologies/ml-agents) v0.4, which can be found in the Udacity classroom
