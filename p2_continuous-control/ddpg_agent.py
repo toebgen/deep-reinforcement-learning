@@ -10,10 +10,10 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 BUFFER_SIZE = int(1e6)  # replay buffer size
-BATCH_SIZE = 256 #128   # minibatch size
+BATCH_SIZE = 512        # minibatch size
 GAMMA = 0.99            # discount factor
 TAU = 1e-3              # for soft update of target parameters
-LR_ACTOR = 1e-4         # learning rate of the actor 
+LR_ACTOR = 1e-3         # learning rate of the actor 
 LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0  #0.0001   # L2 weight decay
 
@@ -60,13 +60,13 @@ class Agent():
         # Save experience / reward
         self.memory.add(state, action, reward, next_state, done)
 
-        # only learn every n_time_steps
+        # only learn every N_TIME_STEPS
         if time_step % N_TIME_STEPS != 0:
             return
         
         # Learn, if enough samples are available in memory
         if len(self.memory) > BATCH_SIZE:
-            for i in range(N_LEARN_UPDATES):
+            for _ in range(N_LEARN_UPDATES):
                 experiences = self.memory.sample()
                 self.learn(experiences, GAMMA)
 
@@ -110,6 +110,10 @@ class Agent():
         # Minimize the loss
         self.critic_optimizer.zero_grad()
         critic_loss.backward()
+
+        # Necessary to clip?
+        torch.nn.utils.clip_grad_norm_(self.critic_local.parameters(), 1)
+
         self.critic_optimizer.step()
 
         # ---------------------------- update actor ---------------------------- #
