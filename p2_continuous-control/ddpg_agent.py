@@ -14,10 +14,10 @@ BATCH_SIZE = 128        # minibatch size
 GAMMA = 0.99            # discount factor
 TAU = 1e-3              # for soft update of target parameters
 LR_ACTOR = 3e-4         # learning rate of the actor 
-LR_CRITIC = 3e-4        # learning rate of the critic
+LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay, #0.0001
 
-N_TIME_STEPS = 1       # every n time step do update
+N_TIME_STEPS = 1       # every n time steps do update
 N_LEARN_UPDATES = 1    # number of learning updates
 
 
@@ -49,12 +49,20 @@ class Agent():
         self.critic_target = Critic(state_size, action_size, random_seed).to(device)
         self.critic_optimizer = optim.Adam(self.critic_local.parameters(), lr=LR_CRITIC, weight_decay=WEIGHT_DECAY)
 
+        self.hard_copy_weights(self.actor_target, self.actor_local)
+        self.hard_copy_weights(self.critic_target, self.critic_local)
+        
         # Noise process
         self.noise = OUNoise(action_size, random_seed)
 
         # Replay memory
         self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, random_seed)
     
+    def hard_copy_weights(self, target, source):
+        """ copy weights from source to target network (part of initialization)"""
+        for target_param, param in zip(target.parameters(), source.parameters()):
+            target_param.data.copy_(param.data)
+            
     def step(self, state, action, reward, next_state, done, time_step):
         """Save experience in replay memory, and use random sample from buffer to learn."""
         # Save experience / reward

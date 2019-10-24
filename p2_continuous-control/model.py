@@ -13,7 +13,7 @@ class Actor(nn.Module):
     """Actor (Policy) Model."""
 
     def __init__(self, state_size, action_size, seed,
-                 fc1_units=256, fc2_units=256):
+                 fc1_units=128, fc2_units=128):
         """Initialize parameters and build model.
         Params
         ======
@@ -42,10 +42,8 @@ class Actor(nn.Module):
         if state.dim() == 1:
             state = torch.unsqueeze(state, 0)
         
-        # Try leaky_relu... --> Was even worse?!
-        #x = F.leaky_relu(self.bn1(self.fc1(state)), negative_slope=0.01)
-        #x = F.leaky_relu(self.fc2(x), negative_slope=0.01)
         x = self.bn1(F.relu(self.fc1(state)))
+        # x = F.relu(self.fc2(x))
         x = self.bn2(F.relu(self.fc2(x)))
         
         return F.tanh(self.fc3(x))
@@ -55,7 +53,7 @@ class Critic(nn.Module):
     """Critic (Value) Model."""
 
     def __init__(self, state_size, action_size, seed,
-                 fc1_units=256, fc2_units=256):
+                 fc1_units=128, fc2_units=128):
         """Initialize parameters and build model.
         Params
         ======
