@@ -29,7 +29,7 @@ class Agent():
     def __init__(self, state_size, action_size, n_agents=1,
                  buffer_size=int(1e6), batch_size=128, gamma=0.99,
                  tau=1e-3, lr_actor=1e-4, lr_critic=1e-4,
-                 weight_decay=0, random_seed=1):
+                 weight_decay=0, neurons=128, random_seed=1):
         """Initialize an Agent object.
         
         Params
@@ -59,15 +59,16 @@ class Agent():
         self.lr_actor = lr_actor
         self.lr_critic = lr_critic
         self.weight_decay = weight_decay
+        self.neurons = neurons
 
         # Actor Network (w/ Target Network)
-        self.actor_local = Actor(state_size, action_size, random_seed).to(device)
-        self.actor_target = Actor(state_size, action_size, random_seed).to(device)
+        self.actor_local = Actor(state_size, action_size, seed=random_seed, fc1_units=neurons, fc2_units=neurons).to(device)
+        self.actor_target = Actor(state_size, action_size, seed=random_seed, fc1_units=neurons, fc2_units=neurons).to(device)
         self.actor_optimizer = optim.Adam(self.actor_local.parameters(), lr=lr_actor)
 
         # Critic Network (w/ Target Network)
-        self.critic_local = Critic(state_size, action_size, random_seed).to(device)
-        self.critic_target = Critic(state_size, action_size, random_seed).to(device)
+        self.critic_local = Critic(state_size, action_size, seed=random_seed, fc1_units=neurons, fc2_units=neurons).to(device)
+        self.critic_target = Critic(state_size, action_size, seed=random_seed, fc1_units=neurons, fc2_units=neurons).to(device)
         self.critic_optimizer = optim.Adam(self.critic_local.parameters(), lr=lr_critic, weight_decay=weight_decay)
 
         #self.hard_copy_weights(self.actor_target, self.actor_local)
