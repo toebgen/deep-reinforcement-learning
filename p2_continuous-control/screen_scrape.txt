@@ -1,0 +1,1146 @@
+Testing following hyperparameters (1/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.001, max_t=1000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:14.443661
+Episode: 2, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:14.492175
+Episode: 3, Average Score: 0.26 (0.26), Score: 0.78, time: 0:00:14.677174
+Episode: 4, Average Score: 0.31 (0.05), Score: 0.47, time: 0:00:14.396585
+Episode: 5, Average Score: 0.28 (-0.03), Score: 0.16, time: 0:00:14.484298
+Episode: 6, Average Score: 0.39 (0.11), Score: 0.92, time: 0:00:14.596514
+Episode: 7, Average Score: 0.37 (-0.01), Score: 0.29, time: 0:00:14.382425
+Episode: 8, Average Score: 0.42 (0.05), Score: 0.74, time: 0:00:14.740400
+Episode: 9, Average Score: 0.46 (0.04), Score: 0.78, time: 0:00:14.616261
+Episode: 10, Average Score: 0.53 (0.07), Score: 1.16, time: 0:00:14.447775
+Episode: 11, Average Score: 0.59 (0.06), Score: 1.16, time: 0:00:14.714654
+Episode: 12, Average Score: 0.60 (0.02), Score: 0.77, time: 0:00:14.432557
+Episode: 13, Average Score: 0.59 (-0.01), Score: 0.45, time: 0:00:14.353485
+Episode: 14, Average Score: 0.55 (-0.04), Score: 0.00, time: 0:00:14.598601
+Episode: 15, Average Score: 0.51 (-0.04), Score: 0.00, time: 0:00:14.819186
+Episode: 16, Average Score: 0.48 (-0.03), Score: 0.00, time: 0:00:14.483740
+Episode: 17, Average Score: 0.45 (-0.03), Score: 0.00, time: 0:00:14.502060
+Episode: 18, Average Score: 0.43 (-0.03), Score: 0.00, time: 0:00:14.501196
+Episode: 19, Average Score: 0.41 (-0.02), Score: 0.10, time: 0:00:14.629642
+Episode: 20, Average Score: 0.39 (-0.02), Score: 0.05, time: 0:00:14.732023
+Episode: 21, Average Score: 0.38 (-0.01), Score: 0.13, time: 0:00:14.622013
+Episode: 22, Average Score: 0.36 (-0.02), Score: 0.00, time: 0:00:14.799595
+Episode: 23, Average Score: 0.35 (-0.02), Score: 0.00, time: 0:00:14.561411
+Episode: 24, Average Score: 0.35 (0.00), Score: 0.41, time: 0:00:14.290281
+Episode: 25, Average Score: 0.33 (-0.01), Score: 0.00, time: 0:00:14.399978
+Episode: 26, Average Score: 0.32 (-0.01), Score: 0.02, time: 0:00:14.642198
+Episode: 27, Average Score: 0.31 (-0.01), Score: 0.08, time: 0:00:14.807353
+Episode: 28, Average Score: 0.34 (0.03), Score: 1.03, time: 0:00:14.721892
+Episode: 29, Average Score: 0.34 (-0.00), Score: 0.26, time: 0:00:14.689287
+Episode: 30, Average Score: 0.33 (-0.00), Score: 0.27, time: 0:00:14.333230
+Episode: 31, Average Score: 0.34 (0.01), Score: 0.61, time: 0:00:14.503699
+Episode: 32, Average Score: 0.35 (0.01), Score: 0.63, time: 0:00:14.542892
+Episode: 33, Average Score: 0.37 (0.01), Score: 0.78, time: 0:00:14.652136
+Episode: 34, Average Score: 0.38 (0.02), Score: 0.98, time: 0:00:14.622348
+Episode: 35, Average Score: 0.40 (0.02), Score: 0.99, time: 0:00:14.501606
+Episode: 36, Average Score: 0.41 (0.01), Score: 0.92, time: 0:00:14.792407
+Episode: 37, Average Score: 0.41 (-0.01), Score: 0.05, time: 0:00:14.703988
+Episode: 38, Average Score: 0.42 (0.01), Score: 0.86, time: 0:00:14.627613
+Episode: 39, Average Score: 0.42 (-0.00), Score: 0.38, time: 0:00:14.543910
+Episode: 40, Average Score: 0.42 (0.00), Score: 0.58, time: 0:00:14.848041
+Episode: 41, Average Score: 0.43 (0.01), Score: 0.82, time: 0:00:14.661407
+Episode: 42, Average Score: 0.46 (0.03), Score: 1.81, time: 0:00:14.339941
+Episode: 43, Average Score: 0.48 (0.02), Score: 1.26, time: 0:00:14.680176
+Episode: 44, Average Score: 0.48 (-0.01), Score: 0.25, time: 0:00:14.845074
+Episode: 45, Average Score: 0.48 (0.00), Score: 0.50, time: 0:00:14.710756
+Episode: 46, Average Score: 0.47 (-0.00), Score: 0.39, time: 0:00:14.485170
+Episode: 47, Average Score: 0.48 (0.00), Score: 0.51, time: 0:00:14.397018
+Episode: 48, Average Score: 0.47 (-0.01), Score: 0.05, time: 0:00:14.495858
+Episode: 49, Average Score: 0.47 (-0.00), Score: 0.40, time: 0:00:14.644089
+Episode: 50, Average Score: 0.46 (-0.00), Score: 0.34, time: 0:00:14.470509
+
+Average score is only 0.463 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (2/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.001, max_t=1000, neurons=256)
+
+Episode: 1, Average Score: 0.10 (0.10), Score: 0.10, time: 0:00:13.951775
+Episode: 2, Average Score: 0.16 (0.06), Score: 0.23, time: 0:00:14.689584
+Episode: 3, Average Score: 0.11 (-0.05), Score: 0.00, time: 0:00:14.332479
+Episode: 4, Average Score: 0.13 (0.02), Score: 0.18, time: 0:00:14.215391
+Episode: 5, Average Score: 0.15 (0.02), Score: 0.23, time: 0:00:14.326131
+Episode: 6, Average Score: 0.14 (-0.01), Score: 0.11, time: 0:00:14.638568
+Episode: 7, Average Score: 0.24 (0.10), Score: 0.85, time: 0:00:14.430883
+Episode: 8, Average Score: 0.25 (0.01), Score: 0.29, time: 0:00:14.775511
+Episode: 9, Average Score: 0.22 (-0.03), Score: 0.00, time: 0:00:14.339218
+Episode: 10, Average Score: 0.20 (-0.02), Score: 0.00, time: 0:00:14.662517
+Episode: 11, Average Score: 0.19 (-0.01), Score: 0.06, time: 0:00:14.579954
+Episode: 12, Average Score: 0.18 (-0.00), Score: 0.13, time: 0:00:14.591795
+Episode: 13, Average Score: 0.23 (0.05), Score: 0.87, time: 0:00:14.485240
+Episode: 14, Average Score: 0.22 (-0.02), Score: 0.00, time: 0:00:14.554005
+Episode: 15, Average Score: 0.23 (0.01), Score: 0.34, time: 0:00:15.178318
+Episode: 16, Average Score: 0.25 (0.02), Score: 0.54, time: 0:00:14.972738
+Episode: 17, Average Score: 0.29 (0.04), Score: 0.99, time: 0:00:14.888195
+Episode: 18, Average Score: 0.28 (-0.00), Score: 0.21, time: 0:00:14.731496
+Episode: 19, Average Score: 0.27 (-0.01), Score: 0.00, time: 0:00:14.594645
+Episode: 20, Average Score: 0.27 (0.00), Score: 0.33, time: 0:00:14.892399
+Episode: 21, Average Score: 0.32 (0.04), Score: 1.16, time: 0:00:14.693149
+Episode: 22, Average Score: 0.39 (0.07), Score: 1.91, time: 0:00:14.535104
+Episode: 23, Average Score: 0.41 (0.02), Score: 0.84, time: 0:00:14.586050
+Episode: 24, Average Score: 0.42 (0.01), Score: 0.74, time: 0:00:14.702100
+Episode: 25, Average Score: 0.42 (0.00), Score: 0.51, time: 0:00:14.905367
+Episode: 26, Average Score: 0.42 (-0.00), Score: 0.42, time: 0:00:14.551540
+Episode: 27, Average Score: 0.41 (-0.02), Score: 0.00, time: 0:00:14.462098
+Episode: 28, Average Score: 0.42 (0.01), Score: 0.77, time: 0:00:14.504251
+Episode: 29, Average Score: 0.44 (0.02), Score: 0.95, time: 0:00:14.633761
+Episode: 30, Average Score: 0.43 (-0.01), Score: 0.00, time: 0:00:14.804881
+Episode: 31, Average Score: 0.43 (0.00), Score: 0.54, time: 0:00:14.427224
+Episode: 32, Average Score: 0.44 (0.01), Score: 0.76, time: 0:00:14.733054
+Episode: 33, Average Score: 0.47 (0.03), Score: 1.34, time: 0:00:14.735272
+Episode: 34, Average Score: 0.45 (-0.01), Score: 0.00, time: 0:00:14.533606
+Episode: 35, Average Score: 0.44 (-0.01), Score: 0.00, time: 0:00:14.428530
+Episode: 36, Average Score: 0.45 (0.01), Score: 0.75, time: 0:00:15.062107
+Episode: 37, Average Score: 0.44 (-0.01), Score: 0.16, time: 0:00:14.482655
+Episode: 38, Average Score: 0.44 (0.00), Score: 0.45, time: 0:00:14.721994
+Episode: 39, Average Score: 0.43 (-0.01), Score: 0.00, time: 0:00:14.579795
+Episode: 40, Average Score: 0.43 (-0.00), Score: 0.42, time: 0:00:14.550695
+Episode: 41, Average Score: 0.47 (0.04), Score: 1.91, time: 0:00:14.888937
+Episode: 42, Average Score: 0.55 (0.08), Score: 3.85, time: 0:00:14.936159
+Episode: 43, Average Score: 0.54 (-0.00), Score: 0.39, time: 0:00:14.255129
+Episode: 44, Average Score: 0.56 (0.02), Score: 1.33, time: 0:00:14.536205
+Episode: 45, Average Score: 0.59 (0.03), Score: 1.90, time: 0:00:14.678228
+Episode: 46, Average Score: 0.60 (0.01), Score: 1.13, time: 0:00:14.933091
+Episode: 47, Average Score: 0.61 (0.01), Score: 1.02, time: 0:00:14.375476
+Episode: 48, Average Score: 0.62 (0.01), Score: 0.92, time: 0:00:14.618173
+Episode: 49, Average Score: 0.61 (-0.00), Score: 0.50, time: 0:00:14.898437
+Episode: 50, Average Score: 0.63 (0.01), Score: 1.18, time: 0:00:14.555644
+
+Average score is only 0.626 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (3/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.001, max_t=3000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:13.545792
+Episode: 2, Average Score: 0.12 (0.12), Score: 0.24, time: 0:00:14.255764
+Episode: 3, Average Score: 0.18 (0.06), Score: 0.30, time: 0:00:14.295448
+Episode: 4, Average Score: 0.18 (-0.00), Score: 0.17, time: 0:00:14.535966
+Episode: 5, Average Score: 0.16 (-0.02), Score: 0.08, time: 0:00:14.320849
+Episode: 6, Average Score: 0.17 (0.01), Score: 0.21, time: 0:00:14.451561
+Episode: 7, Average Score: 0.24 (0.07), Score: 0.69, time: 0:00:14.581886
+Episode: 8, Average Score: 0.24 (-0.00), Score: 0.24, time: 0:00:14.447562
+Episode: 9, Average Score: 0.33 (0.09), Score: 1.01, time: 0:00:14.441313
+Episode: 10, Average Score: 0.32 (-0.00), Score: 0.30, time: 0:00:14.452943
+Episode: 11, Average Score: 0.32 (-0.00), Score: 0.29, time: 0:00:14.520642
+Episode: 12, Average Score: 0.36 (0.04), Score: 0.83, time: 0:00:14.572987
+Episode: 13, Average Score: 0.34 (-0.03), Score: 0.00, time: 0:00:14.652405
+Episode: 14, Average Score: 0.34 (0.00), Score: 0.35, time: 0:00:14.429509
+Episode: 15, Average Score: 0.33 (-0.00), Score: 0.29, time: 0:00:14.711444
+Episode: 16, Average Score: 0.45 (0.12), Score: 2.19, time: 0:00:14.530001
+Episode: 17, Average Score: 0.47 (0.02), Score: 0.81, time: 0:00:14.457432
+Episode: 18, Average Score: 0.47 (0.00), Score: 0.48, time: 0:00:14.730814
+Episode: 19, Average Score: 0.51 (0.03), Score: 1.13, time: 0:00:14.398228
+Episode: 20, Average Score: 0.60 (0.10), Score: 2.48, time: 0:00:14.410709
+Episode: 21, Average Score: 0.63 (0.02), Score: 1.12, time: 0:00:14.360117
+Episode: 22, Average Score: 0.63 (-0.00), Score: 0.61, time: 0:00:14.493100
+Episode: 23, Average Score: 0.64 (0.01), Score: 0.93, time: 0:00:14.585480
+Episode: 24, Average Score: 0.70 (0.05), Score: 1.94, time: 0:00:14.804759
+Episode: 25, Average Score: 0.70 (0.00), Score: 0.76, time: 0:00:14.823690
+Episode: 26, Average Score: 0.71 (0.01), Score: 1.00, time: 0:00:14.481314
+Episode: 27, Average Score: 0.76 (0.05), Score: 1.95, time: 0:00:14.376606
+Episode: 28, Average Score: 0.78 (0.02), Score: 1.37, time: 0:00:14.606802
+Episode: 29, Average Score: 0.80 (0.02), Score: 1.38, time: 0:00:14.929667
+Episode: 30, Average Score: 0.83 (0.03), Score: 1.69, time: 0:00:14.541024
+Episode: 31, Average Score: 0.80 (-0.03), Score: 0.00, time: 0:00:14.545553
+Episode: 32, Average Score: 0.79 (-0.01), Score: 0.39, time: 0:00:14.738004
+Episode: 33, Average Score: 0.76 (-0.02), Score: 0.00, time: 0:00:14.614675
+Episode: 34, Average Score: 0.75 (-0.02), Score: 0.23, time: 0:00:14.704483
+Episode: 35, Average Score: 0.75 (-0.00), Score: 0.70, time: 0:00:14.628978
+Episode: 36, Average Score: 0.74 (-0.01), Score: 0.35, time: 0:00:14.644414
+Episode: 37, Average Score: 0.74 (-0.00), Score: 0.71, time: 0:00:14.379935
+Episode: 38, Average Score: 0.73 (-0.01), Score: 0.46, time: 0:00:14.524331
+Episode: 39, Average Score: 0.72 (-0.01), Score: 0.27, time: 0:00:14.364728
+Episode: 40, Average Score: 0.72 (0.00), Score: 0.83, time: 0:00:14.438602
+Episode: 41, Average Score: 0.74 (0.02), Score: 1.70, time: 0:00:14.428158
+Episode: 42, Average Score: 0.74 (-0.00), Score: 0.65, time: 0:00:14.531273
+Episode: 43, Average Score: 0.73 (-0.01), Score: 0.11, time: 0:00:14.784619
+Episode: 44, Average Score: 0.73 (0.01), Score: 1.08, time: 0:00:14.395251
+Episode: 45, Average Score: 0.75 (0.01), Score: 1.37, time: 0:00:14.422559
+Episode: 46, Average Score: 0.75 (0.00), Score: 0.89, time: 0:00:14.365913
+Episode: 47, Average Score: 0.75 (-0.00), Score: 0.54, time: 0:00:14.714462
+Episode: 48, Average Score: 0.73 (-0.01), Score: 0.03, time: 0:00:14.673035
+Episode: 49, Average Score: 0.74 (0.00), Score: 0.96, time: 0:00:14.695506
+Episode: 50, Average Score: 0.74 (0.01), Score: 1.12, time: 0:00:14.998592
+
+Average score is only 0.745 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (4/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.001, max_t=3000, neurons=256)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:13.666743
+Episode: 2, Average Score: 0.17 (0.17), Score: 0.34, time: 0:00:14.534000
+Episode: 3, Average Score: 0.23 (0.06), Score: 0.34, time: 0:00:14.351419
+Episode: 4, Average Score: 0.17 (-0.06), Score: 0.00, time: 0:00:14.397170
+Episode: 5, Average Score: 0.16 (-0.01), Score: 0.12, time: 0:00:14.745532
+Episode: 6, Average Score: 0.24 (0.08), Score: 0.66, time: 0:00:14.413227
+Episode: 7, Average Score: 0.27 (0.03), Score: 0.45, time: 0:00:14.487940
+Episode: 8, Average Score: 0.33 (0.05), Score: 0.70, time: 0:00:14.666199
+Episode: 9, Average Score: 0.41 (0.08), Score: 1.06, time: 0:00:14.360288
+Episode: 10, Average Score: 0.37 (-0.04), Score: 0.00, time: 0:00:14.671231
+Episode: 11, Average Score: 0.37 (0.01), Score: 0.44, time: 0:00:14.466615
+Episode: 12, Average Score: 0.36 (-0.01), Score: 0.26, time: 0:00:14.658919
+Episode: 13, Average Score: 0.38 (0.02), Score: 0.60, time: 0:00:14.663944
+Episode: 14, Average Score: 0.42 (0.04), Score: 0.97, time: 0:00:14.514487
+Episode: 15, Average Score: 0.43 (0.00), Score: 0.46, time: 0:00:15.316923
+Episode: 16, Average Score: 0.40 (-0.02), Score: 0.08, time: 0:00:14.853849
+Episode: 17, Average Score: 0.42 (0.01), Score: 0.63, time: 0:00:14.687841
+Episode: 18, Average Score: 0.42 (0.00), Score: 0.45, time: 0:00:14.813278
+Episode: 19, Average Score: 0.40 (-0.02), Score: 0.09, time: 0:00:14.631647
+Episode: 20, Average Score: 0.39 (-0.01), Score: 0.14, time: 0:00:14.566515
+Episode: 21, Average Score: 0.40 (0.01), Score: 0.55, time: 0:00:14.707731
+Episode: 22, Average Score: 0.41 (0.01), Score: 0.64, time: 0:00:15.054990
+Episode: 23, Average Score: 0.41 (0.00), Score: 0.44, time: 0:00:14.870632
+Episode: 24, Average Score: 0.41 (-0.00), Score: 0.37, time: 0:00:14.792145
+Episode: 25, Average Score: 0.43 (0.02), Score: 0.84, time: 0:00:15.644435
+Episode: 26, Average Score: 0.43 (0.01), Score: 0.63, time: 0:00:14.998308
+Episode: 27, Average Score: 0.43 (-0.01), Score: 0.25, time: 0:00:15.153502
+Episode: 28, Average Score: 0.44 (0.02), Score: 0.93, time: 0:00:15.194063
+Episode: 29, Average Score: 0.43 (-0.02), Score: 0.00, time: 0:00:15.082622
+Episode: 30, Average Score: 0.43 (-0.00), Score: 0.42, time: 0:00:15.050936
+Episode: 31, Average Score: 0.43 (-0.00), Score: 0.37, time: 0:00:15.284791
+Episode: 32, Average Score: 0.44 (0.01), Score: 0.88, time: 0:00:15.400887
+Episode: 33, Average Score: 0.44 (0.00), Score: 0.46, time: 0:00:16.131858
+Episode: 34, Average Score: 0.44 (-0.01), Score: 0.26, time: 0:00:16.033102
+Episode: 35, Average Score: 0.44 (-0.00), Score: 0.43, time: 0:00:15.991636
+Episode: 36, Average Score: 0.45 (0.01), Score: 0.94, time: 0:00:15.814955
+Episode: 37, Average Score: 0.51 (0.06), Score: 2.62, time: 0:00:15.784392
+Episode: 38, Average Score: 0.51 (0.01), Score: 0.75, time: 0:00:15.869190
+Episode: 39, Average Score: 0.55 (0.03), Score: 1.84, time: 0:00:15.949223
+Episode: 40, Average Score: 0.57 (0.02), Score: 1.24, time: 0:00:15.816486
+Episode: 41, Average Score: 0.56 (-0.01), Score: 0.35, time: 0:00:16.097868
+Episode: 42, Average Score: 0.57 (0.01), Score: 0.95, time: 0:00:15.736904
+Episode: 43, Average Score: 0.59 (0.02), Score: 1.29, time: 0:00:15.562976
+Episode: 44, Average Score: 0.59 (0.00), Score: 0.61, time: 0:00:15.607623
+Episode: 45, Average Score: 0.59 (0.00), Score: 0.77, time: 0:00:15.866062
+Episode: 46, Average Score: 0.59 (-0.01), Score: 0.33, time: 0:00:15.749875
+Episode: 47, Average Score: 0.59 (0.00), Score: 0.61, time: 0:00:15.760705
+Episode: 48, Average Score: 0.59 (0.01), Score: 0.96, time: 0:00:15.615351
+Episode: 49, Average Score: 0.60 (0.01), Score: 0.98, time: 0:00:15.725836
+Episode: 50, Average Score: 0.62 (0.02), Score: 1.60, time: 0:00:15.527081
+
+Average score is only 0.622 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (5/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.0001, max_t=1000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:14.601464
+Episode: 2, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.339461
+Episode: 3, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.356264
+Episode: 4, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.396277
+Episode: 5, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.351020
+Episode: 6, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.303640
+Episode: 7, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.416294
+Episode: 8, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.338044
+Episode: 9, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.346533
+Episode: 10, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.415190
+Episode: 11, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.685759
+Episode: 12, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.898123
+Episode: 13, Average Score: 0.08 (0.08), Score: 1.08, time: 0:00:15.590919
+Episode: 14, Average Score: 0.15 (0.07), Score: 1.05, time: 0:00:15.369641
+Episode: 15, Average Score: 0.15 (0.00), Score: 0.17, time: 0:00:15.643093
+Episode: 16, Average Score: 0.16 (0.01), Score: 0.30, time: 0:00:15.510263
+Episode: 17, Average Score: 0.30 (0.14), Score: 2.46, time: 0:00:15.519749
+Episode: 18, Average Score: 0.31 (0.01), Score: 0.49, time: 0:00:15.324004
+Episode: 19, Average Score: 0.34 (0.03), Score: 0.90, time: 0:00:15.669454
+Episode: 20, Average Score: 0.38 (0.04), Score: 1.06, time: 0:00:15.418893
+Episode: 21, Average Score: 0.37 (-0.01), Score: 0.16, time: 0:00:15.382023
+Episode: 22, Average Score: 0.38 (0.01), Score: 0.66, time: 0:00:15.455454
+Episode: 23, Average Score: 0.37 (-0.01), Score: 0.07, time: 0:00:15.401567
+Episode: 24, Average Score: 0.35 (-0.02), Score: 0.00, time: 0:00:15.504485
+Episode: 25, Average Score: 0.36 (0.01), Score: 0.72, time: 0:00:15.385932
+Episode: 26, Average Score: 0.35 (-0.01), Score: 0.00, time: 0:00:15.609868
+Episode: 27, Average Score: 0.35 (-0.00), Score: 0.30, time: 0:00:15.611619
+Episode: 28, Average Score: 0.38 (0.03), Score: 1.29, time: 0:00:15.444043
+Episode: 29, Average Score: 0.37 (-0.01), Score: 0.00, time: 0:00:15.437165
+Episode: 30, Average Score: 0.38 (0.01), Score: 0.64, time: 0:00:15.683311
+Episode: 31, Average Score: 0.37 (-0.01), Score: 0.07, time: 0:00:15.590002
+Episode: 32, Average Score: 0.36 (-0.00), Score: 0.23, time: 0:00:15.957703
+Episode: 33, Average Score: 0.36 (-0.00), Score: 0.33, time: 0:00:15.644920
+Episode: 34, Average Score: 0.37 (0.00), Score: 0.52, time: 0:00:15.917045
+Episode: 35, Average Score: 0.36 (-0.01), Score: 0.00, time: 0:00:15.639358
+Episode: 36, Average Score: 0.36 (0.00), Score: 0.47, time: 0:00:15.672939
+Episode: 37, Average Score: 0.36 (-0.00), Score: 0.27, time: 0:00:15.712104
+Episode: 38, Average Score: 0.35 (-0.01), Score: 0.00, time: 0:00:15.710584
+Episode: 39, Average Score: 0.34 (-0.01), Score: 0.00, time: 0:00:15.720431
+Episode: 40, Average Score: 0.33 (-0.01), Score: 0.13, time: 0:00:15.691116
+Episode: 41, Average Score: 0.33 (-0.00), Score: 0.17, time: 0:00:15.706139
+Episode: 42, Average Score: 0.32 (-0.01), Score: 0.00, time: 0:00:15.788692
+Episode: 43, Average Score: 0.31 (-0.01), Score: 0.00, time: 0:00:15.656559
+Episode: 44, Average Score: 0.31 (-0.00), Score: 0.18, time: 0:00:15.619439
+Episode: 45, Average Score: 0.30 (-0.01), Score: 0.00, time: 0:00:15.672637
+Episode: 46, Average Score: 0.31 (0.00), Score: 0.32, time: 0:00:15.759194
+Episode: 47, Average Score: 0.30 (-0.01), Score: 0.00, time: 0:00:15.711999
+Episode: 48, Average Score: 0.30 (-0.00), Score: 0.19, time: 0:00:15.618307
+Episode: 49, Average Score: 0.29 (-0.00), Score: 0.18, time: 0:00:15.843967
+Episode: 50, Average Score: 0.29 (-0.01), Score: 0.00, time: 0:00:15.633495
+
+Average score is only 0.288 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (6/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.0001, max_t=1000, neurons=256)
+
+Episode: 1, Average Score: 0.21 (0.21), Score: 0.21, time: 0:00:14.999435
+Episode: 2, Average Score: 0.16 (-0.04), Score: 0.12, time: 0:00:15.796137
+Episode: 3, Average Score: 0.45 (0.28), Score: 1.02, time: 0:00:15.661878
+Episode: 4, Average Score: 0.42 (-0.03), Score: 0.34, time: 0:00:15.777657
+Episode: 5, Average Score: 0.49 (0.07), Score: 0.75, time: 0:00:15.564650
+Episode: 6, Average Score: 0.48 (-0.01), Score: 0.45, time: 0:00:15.723690
+Episode: 7, Average Score: 0.62 (0.14), Score: 1.45, time: 0:00:15.701636
+Episode: 8, Average Score: 0.59 (-0.03), Score: 0.40, time: 0:00:15.787269
+Episode: 9, Average Score: 0.59 (-0.00), Score: 0.55, time: 0:00:15.573124
+Episode: 10, Average Score: 0.56 (-0.03), Score: 0.30, time: 0:00:15.563653
+Episode: 11, Average Score: 0.51 (-0.05), Score: 0.00, time: 0:00:15.570903
+Episode: 12, Average Score: 0.51 (0.00), Score: 0.55, time: 0:00:15.519812
+Episode: 13, Average Score: 0.48 (-0.03), Score: 0.07, time: 0:00:15.574356
+Episode: 14, Average Score: 0.53 (0.05), Score: 1.23, time: 0:00:15.734005
+Episode: 15, Average Score: 0.52 (-0.01), Score: 0.31, time: 0:00:15.693033
+Episode: 16, Average Score: 0.53 (0.02), Score: 0.78, time: 0:00:15.597675
+Episode: 17, Average Score: 0.52 (-0.01), Score: 0.32, time: 0:00:15.706673
+Episode: 18, Average Score: 0.50 (-0.02), Score: 0.16, time: 0:00:15.623414
+Episode: 19, Average Score: 0.49 (-0.01), Score: 0.39, time: 0:00:15.606785
+Episode: 20, Average Score: 0.48 (-0.01), Score: 0.24, time: 0:00:15.610653
+Episode: 21, Average Score: 0.48 (-0.00), Score: 0.39, time: 0:00:16.025448
+Episode: 22, Average Score: 0.54 (0.07), Score: 1.95, time: 0:00:15.899195
+Episode: 23, Average Score: 0.54 (-0.01), Score: 0.40, time: 0:00:16.466319
+Episode: 24, Average Score: 0.55 (0.02), Score: 0.92, time: 0:00:15.886557
+Episode: 25, Average Score: 0.62 (0.06), Score: 2.15, time: 0:00:15.848808
+Episode: 26, Average Score: 0.63 (0.01), Score: 0.82, time: 0:00:15.768310
+Episode: 27, Average Score: 0.62 (-0.00), Score: 0.54, time: 0:00:15.705499
+Episode: 28, Average Score: 0.61 (-0.01), Score: 0.38, time: 0:00:15.597711
+Episode: 29, Average Score: 0.59 (-0.02), Score: 0.05, time: 0:00:15.693382
+Episode: 30, Average Score: 0.58 (-0.02), Score: 0.05, time: 0:00:15.622162
+Episode: 31, Average Score: 0.60 (0.02), Score: 1.35, time: 0:00:15.780768
+Episode: 32, Average Score: 0.59 (-0.01), Score: 0.32, time: 0:00:15.642264
+Episode: 33, Average Score: 0.58 (-0.01), Score: 0.24, time: 0:00:15.699700
+Episode: 34, Average Score: 0.60 (0.01), Score: 1.08, time: 0:00:15.908297
+Episode: 35, Average Score: 0.58 (-0.01), Score: 0.10, time: 0:00:15.748648
+Episode: 36, Average Score: 0.57 (-0.02), Score: 0.00, time: 0:00:15.908549
+Episode: 37, Average Score: 0.57 (0.00), Score: 0.73, time: 0:00:16.028566
+Episode: 38, Average Score: 0.58 (0.01), Score: 0.91, time: 0:00:16.066420
+Episode: 39, Average Score: 0.57 (-0.01), Score: 0.18, time: 0:00:15.952527
+Episode: 40, Average Score: 0.57 (0.00), Score: 0.74, time: 0:00:15.797243
+Episode: 41, Average Score: 0.58 (0.01), Score: 0.93, time: 0:00:16.338163
+Episode: 42, Average Score: 0.60 (0.02), Score: 1.25, time: 0:00:15.872295
+Episode: 43, Average Score: 0.63 (0.03), Score: 1.86, time: 0:00:16.162130
+Episode: 44, Average Score: 0.62 (-0.00), Score: 0.50, time: 0:00:15.786714
+Episode: 45, Average Score: 0.64 (0.02), Score: 1.36, time: 0:00:15.996048
+Episode: 46, Average Score: 0.66 (0.02), Score: 1.61, time: 0:00:15.672703
+Episode: 47, Average Score: 0.66 (-0.01), Score: 0.41, time: 0:00:15.862762
+Episode: 48, Average Score: 0.67 (0.02), Score: 1.50, time: 0:00:15.747627
+Episode: 49, Average Score: 0.70 (0.03), Score: 1.94, time: 0:00:15.874560
+Episode: 50, Average Score: 0.70 (0.00), Score: 0.85, time: 0:00:15.915925
+
+Average score is only 0.703 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (7/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.0001, max_t=3000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:14.688129
+Episode: 2, Average Score: 0.08 (0.08), Score: 0.16, time: 0:00:15.762497
+Episode: 3, Average Score: 0.05 (-0.03), Score: 0.00, time: 0:00:15.847448
+Episode: 4, Average Score: 0.20 (0.14), Score: 0.63, time: 0:00:15.841863
+Episode: 5, Average Score: 0.18 (-0.02), Score: 0.11, time: 0:00:15.643242
+Episode: 6, Average Score: 0.17 (-0.01), Score: 0.11, time: 0:00:15.846561
+Episode: 7, Average Score: 0.14 (-0.02), Score: 0.00, time: 0:00:15.598571
+Episode: 8, Average Score: 0.13 (-0.02), Score: 0.00, time: 0:00:15.770725
+Episode: 9, Average Score: 0.11 (-0.01), Score: 0.00, time: 0:00:15.528006
+Episode: 10, Average Score: 0.10 (-0.01), Score: 0.00, time: 0:00:15.909267
+Episode: 11, Average Score: 0.09 (-0.01), Score: 0.00, time: 0:00:15.941128
+Episode: 12, Average Score: 0.08 (-0.01), Score: 0.00, time: 0:00:15.816334
+Episode: 13, Average Score: 0.09 (0.01), Score: 0.17, time: 0:00:15.518809
+Episode: 14, Average Score: 0.08 (-0.01), Score: 0.00, time: 0:00:15.689022
+Episode: 15, Average Score: 0.08 (-0.01), Score: 0.00, time: 0:00:15.566156
+Episode: 16, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.647389
+Episode: 17, Average Score: 0.09 (0.01), Score: 0.30, time: 0:00:15.783407
+Episode: 18, Average Score: 0.08 (-0.00), Score: 0.00, time: 0:00:15.717359
+Episode: 19, Average Score: 0.09 (0.01), Score: 0.25, time: 0:00:16.283046
+Episode: 20, Average Score: 0.09 (-0.00), Score: 0.00, time: 0:00:15.685619
+Episode: 21, Average Score: 0.08 (-0.00), Score: 0.00, time: 0:00:15.645483
+Episode: 22, Average Score: 0.08 (-0.00), Score: 0.00, time: 0:00:15.596713
+Episode: 23, Average Score: 0.08 (-0.00), Score: 0.00, time: 0:00:15.618815
+Episode: 24, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.708883
+Episode: 25, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.624412
+Episode: 26, Average Score: 0.07 (0.00), Score: 0.11, time: 0:00:15.782824
+Episode: 27, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.764213
+Episode: 28, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.802493
+Episode: 29, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:15.621399
+Episode: 30, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:16.114134
+Episode: 31, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:15.963872
+Episode: 32, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:15.898163
+Episode: 33, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:15.845998
+Episode: 34, Average Score: 0.06 (0.01), Score: 0.30, time: 0:00:15.808596
+Episode: 35, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:15.831509
+Episode: 36, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:15.718233
+Episode: 37, Average Score: 0.06 (0.00), Score: 0.11, time: 0:00:15.781521
+Episode: 38, Average Score: 0.06 (-0.00), Score: 0.00, time: 0:00:15.726470
+Episode: 39, Average Score: 0.06 (0.00), Score: 0.21, time: 0:00:15.871546
+Episode: 40, Average Score: 0.07 (0.01), Score: 0.27, time: 0:00:15.651707
+Episode: 41, Average Score: 0.07 (0.00), Score: 0.18, time: 0:00:15.878510
+Episode: 42, Average Score: 0.07 (0.00), Score: 0.08, time: 0:00:15.793421
+Episode: 43, Average Score: 0.08 (0.01), Score: 0.39, time: 0:00:15.756451
+Episode: 44, Average Score: 0.08 (-0.00), Score: 0.00, time: 0:00:15.697704
+Episode: 45, Average Score: 0.08 (-0.00), Score: 0.00, time: 0:00:15.676576
+Episode: 46, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.915605
+Episode: 47, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.875563
+Episode: 48, Average Score: 0.07 (-0.00), Score: 0.00, time: 0:00:15.808704
+Episode: 49, Average Score: 0.07 (0.00), Score: 0.23, time: 0:00:16.262436
+Episode: 50, Average Score: 0.07 (0.00), Score: 0.08, time: 0:00:16.152890
+
+Average score is only 0.074 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (8/48):
+Combination(buffer_size=100000, batch_size=64, learn_rate=0.0001, max_t=3000, neurons=256)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:14.948821
+Episode: 2, Average Score: 0.02 (0.02), Score: 0.05, time: 0:00:15.557184
+Episode: 3, Average Score: 0.16 (0.14), Score: 0.44, time: 0:00:15.549664
+Episode: 4, Average Score: 0.15 (-0.01), Score: 0.13, time: 0:00:15.590991
+Episode: 5, Average Score: 0.13 (-0.02), Score: 0.03, time: 0:00:15.767386
+Episode: 6, Average Score: 0.14 (0.01), Score: 0.21, time: 0:00:15.721021
+Episode: 7, Average Score: 0.21 (0.07), Score: 0.60, time: 0:00:15.587236
+Episode: 8, Average Score: 0.22 (0.02), Score: 0.34, time: 0:00:15.734953
+Episode: 9, Average Score: 0.24 (0.01), Score: 0.34, time: 0:00:15.684187
+Episode: 10, Average Score: 0.24 (-0.00), Score: 0.22, time: 0:00:15.587003
+Episode: 11, Average Score: 0.22 (-0.01), Score: 0.11, time: 0:00:15.714031
+Episode: 12, Average Score: 0.24 (0.01), Score: 0.36, time: 0:00:15.669860
+Episode: 13, Average Score: 0.24 (0.00), Score: 0.26, time: 0:00:15.711264
+Episode: 14, Average Score: 0.27 (0.04), Score: 0.76, time: 0:00:16.246036
+Episode: 15, Average Score: 0.26 (-0.02), Score: 0.00, time: 0:00:15.657590
+Episode: 16, Average Score: 0.25 (-0.01), Score: 0.14, time: 0:00:15.746739
+Episode: 17, Average Score: 0.23 (-0.01), Score: 0.00, time: 0:00:15.745048
+Episode: 18, Average Score: 0.31 (0.08), Score: 1.65, time: 0:00:15.741447
+Episode: 19, Average Score: 0.30 (-0.02), Score: 0.00, time: 0:00:15.844774
+Episode: 20, Average Score: 0.31 (0.01), Score: 0.58, time: 0:00:16.390899
+Episode: 21, Average Score: 0.32 (0.01), Score: 0.57, time: 0:00:15.773278
+Episode: 22, Average Score: 0.33 (0.01), Score: 0.44, time: 0:00:15.689624
+Episode: 23, Average Score: 0.32 (-0.01), Score: 0.20, time: 0:00:15.752930
+Episode: 24, Average Score: 0.31 (-0.01), Score: 0.00, time: 0:00:15.774068
+Episode: 25, Average Score: 0.30 (-0.01), Score: 0.14, time: 0:00:15.819317
+Episode: 26, Average Score: 0.29 (-0.01), Score: 0.00, time: 0:00:15.789138
+Episode: 27, Average Score: 0.29 (-0.01), Score: 0.15, time: 0:00:15.733876
+Episode: 28, Average Score: 0.28 (-0.01), Score: 0.00, time: 0:00:15.768822
+Episode: 29, Average Score: 0.28 (0.00), Score: 0.30, time: 0:00:16.319249
+Episode: 30, Average Score: 0.27 (-0.01), Score: 0.00, time: 0:00:15.844590
+Episode: 31, Average Score: 0.26 (-0.01), Score: 0.00, time: 0:00:15.744575
+Episode: 32, Average Score: 0.25 (-0.00), Score: 0.10, time: 0:00:15.795968
+Episode: 33, Average Score: 0.25 (-0.01), Score: 0.00, time: 0:00:15.751001
+Episode: 34, Average Score: 0.25 (0.01), Score: 0.54, time: 0:00:15.682409
+Episode: 35, Average Score: 0.25 (-0.00), Score: 0.11, time: 0:00:15.669153
+Episode: 36, Average Score: 0.26 (0.01), Score: 0.59, time: 0:00:15.640618
+Episode: 37, Average Score: 0.26 (0.00), Score: 0.43, time: 0:00:15.780645
+Episode: 38, Average Score: 0.28 (0.02), Score: 0.86, time: 0:00:15.996415
+Episode: 39, Average Score: 0.29 (0.01), Score: 0.75, time: 0:00:16.159281
+Episode: 40, Average Score: 0.33 (0.04), Score: 1.70, time: 0:00:16.268198
+Episode: 41, Average Score: 0.33 (-0.00), Score: 0.25, time: 0:00:15.623481
+Episode: 42, Average Score: 0.35 (0.02), Score: 1.31, time: 0:00:15.723760
+Episode: 43, Average Score: 0.36 (0.01), Score: 0.84, time: 0:00:15.776558
+Episode: 44, Average Score: 0.37 (0.01), Score: 0.74, time: 0:00:15.599622
+Episode: 45, Average Score: 0.40 (0.03), Score: 1.71, time: 0:00:16.010749
+Episode: 46, Average Score: 0.42 (0.03), Score: 1.57, time: 0:00:15.825680
+Episode: 47, Average Score: 0.42 (-0.00), Score: 0.38, time: 0:00:15.817305
+Episode: 48, Average Score: 0.42 (0.00), Score: 0.43, time: 0:00:15.979164
+Episode: 49, Average Score: 0.45 (0.02), Score: 1.50, time: 0:00:15.779648
+Episode: 50, Average Score: 0.45 (0.00), Score: 0.54, time: 0:00:15.713651
+
+Average score is only 0.447 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (9/48):
+Combination(buffer_size=100000, batch_size=128, learn_rate=0.001, max_t=1000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.060646
+Episode: 2, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:16.883348
+Episode: 3, Average Score: 0.08 (0.08), Score: 0.24, time: 0:00:16.959071
+Episode: 4, Average Score: 0.06 (-0.02), Score: 0.00, time: 0:00:17.227307
+Episode: 5, Average Score: 0.05 (-0.01), Score: 0.00, time: 0:00:17.009535
+Episode: 6, Average Score: 0.04 (-0.01), Score: 0.00, time: 0:00:16.936117
+Episode: 7, Average Score: 0.03 (-0.01), Score: 0.00, time: 0:00:16.947994
+Episode: 8, Average Score: 0.14 (0.11), Score: 0.89, time: 0:00:17.344532
+Episode: 9, Average Score: 0.21 (0.06), Score: 0.72, time: 0:00:17.573927
+Episode: 10, Average Score: 0.21 (0.01), Score: 0.29, time: 0:00:17.107368
+Episode: 11, Average Score: 0.24 (0.02), Score: 0.45, time: 0:00:17.135593
+Episode: 12, Average Score: 0.29 (0.06), Score: 0.91, time: 0:00:17.011220
+Episode: 13, Average Score: 0.29 (-0.01), Score: 0.21, time: 0:00:17.182535
+Episode: 14, Average Score: 0.32 (0.04), Score: 0.84, time: 0:00:16.972930
+Episode: 15, Average Score: 0.32 (-0.00), Score: 0.31, time: 0:00:17.012012
+Episode: 16, Average Score: 0.30 (-0.02), Score: 0.00, time: 0:00:17.039685
+Episode: 17, Average Score: 0.30 (-0.01), Score: 0.20, time: 0:00:17.144066
+Episode: 18, Average Score: 0.29 (-0.01), Score: 0.10, time: 0:00:17.108943
+Episode: 19, Average Score: 0.29 (0.00), Score: 0.34, time: 0:00:17.030048
+Episode: 20, Average Score: 0.35 (0.06), Score: 1.58, time: 0:00:17.183706
+Episode: 21, Average Score: 0.39 (0.04), Score: 1.21, time: 0:00:17.190382
+Episode: 22, Average Score: 0.41 (0.02), Score: 0.73, time: 0:00:17.184308
+Episode: 23, Average Score: 0.45 (0.04), Score: 1.34, time: 0:00:17.505234
+Episode: 24, Average Score: 0.45 (-0.00), Score: 0.42, time: 0:00:17.227250
+Episode: 25, Average Score: 0.46 (0.01), Score: 0.62, time: 0:00:17.145161
+Episode: 26, Average Score: 0.48 (0.02), Score: 1.05, time: 0:00:17.573098
+Episode: 27, Average Score: 0.50 (0.02), Score: 0.99, time: 0:00:17.449878
+Episode: 28, Average Score: 0.49 (-0.00), Score: 0.41, time: 0:00:17.202023
+Episode: 29, Average Score: 0.52 (0.02), Score: 1.16, time: 0:00:17.148316
+Episode: 30, Average Score: 0.52 (-0.00), Score: 0.51, time: 0:00:17.064366
+Episode: 31, Average Score: 0.52 (-0.00), Score: 0.46, time: 0:00:17.105359
+Episode: 32, Average Score: 0.51 (-0.00), Score: 0.40, time: 0:00:17.285083
+Episode: 33, Average Score: 0.52 (0.00), Score: 0.62, time: 0:00:17.193621
+Episode: 34, Average Score: 0.56 (0.04), Score: 2.04, time: 0:00:17.213767
+Episode: 35, Average Score: 0.56 (-0.00), Score: 0.55, time: 0:00:17.495302
+Episode: 36, Average Score: 0.56 (-0.00), Score: 0.40, time: 0:00:17.449418
+Episode: 37, Average Score: 0.56 (0.01), Score: 0.86, time: 0:00:17.453786
+Episode: 38, Average Score: 0.57 (0.01), Score: 0.90, time: 0:00:17.362728
+Episode: 39, Average Score: 0.59 (0.02), Score: 1.26, time: 0:00:17.183892
+Episode: 40, Average Score: 0.61 (0.02), Score: 1.43, time: 0:00:17.271473
+Episode: 41, Average Score: 0.63 (0.02), Score: 1.41, time: 0:00:17.291407
+Episode: 42, Average Score: 0.64 (0.01), Score: 1.23, time: 0:00:17.164071
+Episode: 43, Average Score: 0.66 (0.01), Score: 1.13, time: 0:00:17.338515
+Episode: 44, Average Score: 0.66 (0.00), Score: 0.66, time: 0:00:17.555797
+Episode: 45, Average Score: 0.70 (0.04), Score: 2.50, time: 0:00:17.537501
+Episode: 46, Average Score: 0.70 (0.01), Score: 1.02, time: 0:00:17.164627
+Episode: 47, Average Score: 0.72 (0.02), Score: 1.65, time: 0:00:17.317517
+Episode: 48, Average Score: 0.74 (0.02), Score: 1.58, time: 0:00:17.213512
+Episode: 49, Average Score: 0.75 (0.00), Score: 0.90, time: 0:00:17.193259
+Episode: 50, Average Score: 0.76 (0.01), Score: 1.34, time: 0:00:17.392905
+
+Average score is only 0.757 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (10/48):
+Combination(buffer_size=100000, batch_size=128, learn_rate=0.001, max_t=1000, neurons=256)
+
+Episode: 1, Average Score: 0.06 (0.06), Score: 0.06, time: 0:00:15.554707
+Episode: 2, Average Score: 0.15 (0.09), Score: 0.25, time: 0:00:17.344919
+Episode: 3, Average Score: 0.20 (0.04), Score: 0.29, time: 0:00:17.164421
+Episode: 4, Average Score: 0.15 (-0.05), Score: 0.00, time: 0:00:17.139718
+Episode: 5, Average Score: 0.12 (-0.03), Score: 0.00, time: 0:00:17.205232
+Episode: 6, Average Score: 0.21 (0.09), Score: 0.64, time: 0:00:17.315838
+Episode: 7, Average Score: 0.19 (-0.02), Score: 0.10, time: 0:00:17.168126
+Episode: 8, Average Score: 0.33 (0.14), Score: 1.33, time: 0:00:17.320212
+Episode: 9, Average Score: 0.35 (0.02), Score: 0.52, time: 0:00:17.250107
+Episode: 17, Average Score: 0.57 (-0.01), Score: 0.36, time: 0:00:17.413577
+Episode: 18, Average Score: 0.64 (0.07), Score: 1.85, time: 0:00:17.593097
+Episode: 19, Average Score: 0.69 (0.06), Score: 1.72, time: 0:00:17.509117
+Episode: 20, Average Score: 0.69 (0.00), Score: 0.70, time: 0:00:17.128858
+Episode: 21, Average Score: 0.69 (-0.00), Score: 0.64, time: 0:00:17.235320
+Episode: 22, Average Score: 0.71 (0.02), Score: 1.12, time: 0:00:17.302980
+Episode: 28, Average Score: 0.80 (-0.03), Score: 0.03, time: 0:00:17.542945
+Episode: 29, Average Score: 0.78 (-0.01), Score: 0.37, time: 0:00:17.768258
+Episode: 30, Average Score: 0.77 (-0.01), Score: 0.48, time: 0:00:17.739927
+Episode: 31, Average Score: 0.81 (0.04), Score: 2.01, time: 0:00:17.582419
+Episode: 32, Average Score: 0.82 (0.01), Score: 1.17, time: 0:00:17.430378
+Episode: 33, Average Score: 0.84 (0.02), Score: 1.34, time: 0:00:17.445178
+Episode: 34, Average Score: 0.83 (-0.01), Score: 0.44, time: 0:00:17.380032
+Episode: 35, Average Score: 0.88 (0.05), Score: 2.61, time: 0:00:17.395746
+Episode: 36, Average Score: 0.86 (-0.01), Score: 0.37, time: 0:00:17.430676
+Episode: 37, Average Score: 0.85 (-0.01), Score: 0.49, time: 0:00:17.506273
+Episode: 38, Average Score: 0.84 (-0.01), Score: 0.48, time: 0:00:17.461088
+Episode: 39, Average Score: 0.87 (0.03), Score: 1.98, time: 0:00:17.335872
+Episode: 40, Average Score: 0.87 (-0.01), Score: 0.54, time: 0:00:17.620842
+Episode: 41, Average Score: 0.85 (-0.02), Score: 0.23, time: 0:00:17.490913
+Episode: 42, Average Score: 0.86 (0.01), Score: 1.07, time: 0:00:17.582167
+Episode: 43, Average Score: 0.85 (-0.00), Score: 0.66, time: 0:00:17.520068
+Episode: 44, Average Score: 0.85 (-0.00), Score: 0.80, time: 0:00:17.469279
+Episode: 45, Average Score: 0.88 (0.03), Score: 2.23, time: 0:00:17.397241
+Episode: 46, Average Score: 0.89 (0.01), Score: 1.34, time: 0:00:17.440385
+Episode: 47, Average Score: 0.89 (-0.00), Score: 0.88, time: 0:00:17.658639
+Episode: 48, Average Score: 0.90 (0.01), Score: 1.26, time: 0:00:18.249669
+Episode: 49, Average Score: 0.91 (0.01), Score: 1.52, time: 0:00:17.513571
+Episode: 50, Average Score: 0.91 (-0.00), Score: 0.77, time: 0:00:17.601879
+
+Average score is only 0.908 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (11/48):
+Combination(buffer_size=100000, batch_size=128, learn_rate=0.001, max_t=3000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.100803
+Episode: 2, Average Score: 0.20 (0.20), Score: 0.40, time: 0:00:17.036596
+Episode: 3, Average Score: 0.13 (-0.07), Score: 0.00, time: 0:00:17.017803
+Episode: 4, Average Score: 0.22 (0.09), Score: 0.48, time: 0:00:16.914823
+Episode: 10, Average Score: 0.56 (0.06), Score: 1.14, time: 0:00:17.189097
+Episode: 11, Average Score: 0.57 (0.02), Score: 0.73, time: 0:00:17.040579
+Episode: 12, Average Score: 0.56 (-0.01), Score: 0.41, time: 0:00:17.076965
+Episode: 13, Average Score: 0.58 (0.01), Score: 0.75, time: 0:00:17.099051
+Episode: 14, Average Score: 0.53 (-0.04), Score: 0.00, time: 0:00:17.030981
+Episode: 15, Average Score: 0.53 (-0.00), Score: 0.52, time: 0:00:17.243311
+Episode: 16, Average Score: 0.51 (-0.02), Score: 0.15, time: 0:00:17.326472
+Episode: 17, Average Score: 0.48 (-0.03), Score: 0.03, time: 0:00:17.205996
+Episode: 18, Average Score: 0.48 (-0.00), Score: 0.41, time: 0:00:17.126245
+Episode: 19, Average Score: 0.46 (-0.02), Score: 0.07, time: 0:00:17.044723
+Episode: 20, Average Score: 0.43 (-0.02), Score: 0.00, time: 0:00:17.292670
+Episode: 21, Average Score: 0.42 (-0.01), Score: 0.25, time: 0:00:17.309338
+Episode: 22, Average Score: 0.40 (-0.02), Score: 0.00, time: 0:00:17.114224
+Episode: 23, Average Score: 0.43 (0.02), Score: 0.96, time: 0:00:17.174047
+Episode: 24, Average Score: 0.43 (-0.00), Score: 0.36, time: 0:00:17.184297
+Episode: 25, Average Score: 0.43 (0.00), Score: 0.45, time: 0:00:17.468434
+Episode: 26, Average Score: 0.46 (0.03), Score: 1.32, time: 0:00:17.016288
+Episode: 27, Average Score: 0.48 (0.01), Score: 0.84, time: 0:00:17.136180
+Episode: 28, Average Score: 0.48 (0.01), Score: 0.71, time: 0:00:17.080638
+Episode: 29, Average Score: 0.48 (-0.00), Score: 0.35, time: 0:00:17.037024
+Episode: 30, Average Score: 0.47 (-0.01), Score: 0.25, time: 0:00:17.077001
+Episode: 31, Average Score: 0.47 (-0.00), Score: 0.40, time: 0:00:17.055983
+Episode: 32, Average Score: 0.52 (0.05), Score: 2.06, time: 0:00:17.268159
+Episode: 33, Average Score: 0.52 (0.00), Score: 0.61, time: 0:00:17.185541
+Episode: 34, Average Score: 0.53 (0.00), Score: 0.68, time: 0:00:17.538862
+Episode: 35, Average Score: 0.53 (0.00), Score: 0.63, time: 0:00:17.318316
+Episode: 36, Average Score: 0.56 (0.03), Score: 1.53, time: 0:00:17.153503
+Episode: 37, Average Score: 0.56 (0.01), Score: 0.76, time: 0:00:17.309016
+Episode: 38, Average Score: 0.55 (-0.01), Score: 0.18, time: 0:00:17.095447
+Episode: 39, Average Score: 0.54 (-0.01), Score: 0.22, time: 0:00:17.147066
+Episode: 40, Average Score: 0.57 (0.02), Score: 1.49, time: 0:00:17.217729
+Episode: 41, Average Score: 0.57 (0.00), Score: 0.76, time: 0:00:17.222476
+Episode: 42, Average Score: 0.58 (0.01), Score: 0.93, time: 0:00:17.313347
+Episode: 43, Average Score: 0.60 (0.02), Score: 1.23, time: 0:00:17.226449
+Episode: 44, Average Score: 0.60 (0.00), Score: 0.62, time: 0:00:17.302363
+Episode: 45, Average Score: 0.60 (0.01), Score: 0.85, time: 0:00:17.121832
+Episode: 46, Average Score: 0.61 (0.00), Score: 0.79, time: 0:00:17.217574
+Episode 47/400, t: 459/3000
+IOPub message rate exceeded.
+The notebook server will temporarily stop sending output
+to the client in order to avoid crashing it.
+To change this limit, set the config variable
+`--NotebookApp.iopub_msg_rate_limit`.
+
+Current values:
+NotebookApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+NotebookApp.rate_limit_window=3.0 (secs)
+
+Episode: 12, Average Score: 0.51 (0.16), Score: 2.26, time: 0:00:17.501528
+Episode: 13, Average Score: 0.50 (-0.01), Score: 0.37, time: 0:00:17.374753
+Episode: 14, Average Score: 0.50 (-0.00), Score: 0.50, time: 0:00:17.356521
+Episode: 15, Average Score: 0.47 (-0.03), Score: 0.00, time: 0:00:17.149826
+Episode: 16, Average Score: 0.49 (0.03), Score: 0.87, time: 0:00:17.254954
+Episode: 17, Average Score: 0.48 (-0.02), Score: 0.22, time: 0:00:17.215617
+Episode: 18, Average Score: 0.52 (0.04), Score: 1.23, time: 0:00:17.565026
+Episode: 19, Average Score: 0.50 (-0.02), Score: 0.13, time: 0:00:17.289797
+Episode: 20, Average Score: 0.55 (0.05), Score: 1.45, time: 0:00:17.444319
+Episode: 21, Average Score: 0.55 (0.01), Score: 0.69, time: 0:00:17.439779
+Episode: 22, Average Score: 0.55 (-0.00), Score: 0.54, time: 0:00:17.269567
+Episode: 23, Average Score: 0.60 (0.05), Score: 1.69, time: 0:00:17.320645
+Episode: 24, Average Score: 0.59 (-0.01), Score: 0.29, time: 0:00:17.275272
+Episode: 25, Average Score: 0.62 (0.03), Score: 1.34, time: 0:00:17.279351
+Episode: 26, Average Score: 0.63 (0.01), Score: 0.92, time: 0:00:17.518476
+Episode: 27, Average Score: 0.63 (-0.00), Score: 0.56, time: 0:00:17.371381
+Episode: 28, Average Score: 0.62 (-0.01), Score: 0.45, time: 0:00:17.574957
+Episode: 29, Average Score: 0.61 (-0.01), Score: 0.26, time: 0:00:17.250997
+Episode: 30, Average Score: 0.61 (0.00), Score: 0.64, time: 0:00:17.401168
+Episode: 31, Average Score: 0.60 (-0.01), Score: 0.28, time: 0:00:17.490063
+Episode: 32, Average Score: 0.58 (-0.02), Score: 0.09, time: 0:00:18.241099
+Episode: 33, Average Score: 0.57 (-0.01), Score: 0.24, time: 0:00:17.475370
+Episode: 34, Average Score: 0.59 (0.01), Score: 1.03, time: 0:00:17.531668
+Episode: 35, Average Score: 0.61 (0.02), Score: 1.39, time: 0:00:17.684153
+Episode: 36, Average Score: 0.62 (0.01), Score: 0.81, time: 0:00:17.424604
+Episode: 37, Average Score: 0.61 (-0.00), Score: 0.48, time: 0:00:17.490218
+Episode: 38, Average Score: 0.65 (0.03), Score: 1.94, time: 0:00:17.784592
+Episode: 39, Average Score: 0.65 (0.00), Score: 0.75, time: 0:00:16.017784
+Episode: 40, Average Score: 0.64 (-0.01), Score: 0.12, time: 0:00:15.689837
+Episode: 41, Average Score: 0.64 (0.00), Score: 0.71, time: 0:00:15.807240
+Episode: 49, Average Score: 0.72 (-0.01), Score: 0.11, time: 0:00:16.089542
+Episode: 50, Average Score: 0.72 (-0.00), Score: 0.50, time: 0:00:15.916030
+
+Average score is only 0.716 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (13/48):
+Combination(buffer_size=100000, batch_size=128, learn_rate=0.0001, max_t=1000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:13.901819
+Episode: 2, Average Score: 0.04 (0.04), Score: 0.09, time: 0:00:15.424883
+Episode: 3, Average Score: 0.10 (0.06), Score: 0.22, time: 0:00:15.400432
+Episode: 4, Average Score: 0.33 (0.23), Score: 1.02, time: 0:00:15.527297
+Episode: 5, Average Score: 0.43 (0.09), Score: 0.80, time: 0:00:15.845080
+Episode: 6, Average Score: 0.45 (0.02), Score: 0.55, time: 0:00:15.464973
+Episode: 7, Average Score: 0.48 (0.03), Score: 0.66, time: 0:00:15.610088
+Episode: 8, Average Score: 0.60 (0.12), Score: 1.47, time: 0:00:16.049754
+Episode: 9, Average Score: 0.73 (0.13), Score: 1.75, time: 0:00:15.621498
+Episode: 16, Average Score: 0.58 (-0.03), Score: 0.08, time: 0:00:15.867020
+Episode: 17, Average Score: 0.55 (-0.03), Score: 0.10, time: 0:00:15.872512
+Episode: 18, Average Score: 0.55 (0.00), Score: 0.56, time: 0:00:15.854067
+Episode: 19, Average Score: 0.53 (-0.02), Score: 0.14, time: 0:00:15.686747
+Episode: 20, Average Score: 0.51 (-0.02), Score: 0.20, time: 0:00:15.823144
+Episode: 21, Average Score: 0.49 (-0.02), Score: 0.00, time: 0:00:15.837479
+Episode: 22, Average Score: 0.47 (-0.02), Score: 0.00, time: 0:00:15.752283
+Episode: 23, Average Score: 0.45 (-0.02), Score: 0.00, time: 0:00:15.959915
+Episode: 24, Average Score: 0.43 (-0.02), Score: 0.00, time: 0:00:16.042177
+Episode: 25, Average Score: 0.41 (-0.01), Score: 0.10, time: 0:00:16.143904
+Episode: 26, Average Score: 0.40 (-0.02), Score: 0.00, time: 0:00:15.869681
+Episode: 27, Average Score: 0.38 (-0.01), Score: 0.00, time: 0:00:15.922311
+Episode: 28, Average Score: 0.38 (-0.00), Score: 0.38, time: 0:00:16.404557
+Episode: 29, Average Score: 0.40 (0.02), Score: 0.84, time: 0:00:15.982454
+Episode: 30, Average Score: 0.39 (-0.01), Score: 0.20, time: 0:00:15.906361
+Episode: 31, Average Score: 0.38 (-0.01), Score: 0.00, time: 0:00:15.566082
+Episode: 32, Average Score: 0.38 (0.00), Score: 0.47, time: 0:00:15.587309
+Episode: 33, Average Score: 0.37 (-0.01), Score: 0.00, time: 0:00:15.689197
+Episode: 34, Average Score: 0.36 (-0.01), Score: 0.00, time: 0:00:15.689806
+Episode: 35, Average Score: 0.35 (-0.01), Score: 0.00, time: 0:00:16.066501
+Episode: 36, Average Score: 0.34 (-0.01), Score: 0.00, time: 0:00:15.961540
+Episode: 37, Average Score: 0.34 (0.00), Score: 0.44, time: 0:00:16.283701
+Episode: 38, Average Score: 0.39 (0.04), Score: 2.04, time: 0:00:15.993851
+Episode: 39, Average Score: 0.38 (-0.01), Score: 0.03, time: 0:00:15.714730
+Episode: 40, Average Score: 0.37 (-0.00), Score: 0.20, time: 0:00:16.024765
+Episode: 41, Average Score: 0.36 (-0.01), Score: 0.00, time: 0:00:16.143347
+Episode: 42, Average Score: 0.36 (-0.00), Score: 0.29, time: 0:00:16.147873
+Episode: 43, Average Score: 0.36 (-0.01), Score: 0.07, time: 0:00:16.287585
+Episode: 44, Average Score: 0.35 (-0.01), Score: 0.00, time: 0:00:15.963176
+Episode: 45, Average Score: 0.34 (-0.00), Score: 0.15, time: 0:00:15.872138
+Episode: 46, Average Score: 0.35 (0.00), Score: 0.43, time: 0:00:16.254780
+Episode: 47, Average Score: 0.38 (0.03), Score: 1.97, time: 0:00:16.183448
+Episode: 48, Average Score: 0.40 (0.02), Score: 1.36, time: 0:00:15.911821
+Episode: 49, Average Score: 0.39 (-0.01), Score: 0.00, time: 0:00:16.048647
+Episode: 50, Average Score: 0.38 (-0.01), Score: 0.01, time: 0:00:16.483312
+
+Average score is only 0.385 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (14/48):
+Combination(buffer_size=100000, batch_size=128, learn_rate=0.0001, max_t=1000, neurons=256)
+
+Episode: 1, Average Score: 0.09 (0.09), Score: 0.09, time: 0:00:14.168490
+Episode: 2, Average Score: 0.04 (-0.04), Score: 0.00, time: 0:00:15.910769
+Episode: 3, Average Score: 0.06 (0.01), Score: 0.08, time: 0:00:15.863371
+Episode: 4, Average Score: 0.27 (0.22), Score: 0.92, time: 0:00:15.961033
+Episode: 5, Average Score: 0.29 (0.02), Score: 0.37, time: 0:00:15.900494
+Episode 6/400, t: 429/1000
+
+
+
+
+Testing following hyperparameters (16/48):
+Combination(buffer_size=100000, batch_size=128, learn_rate=0.0001, max_t=3000, neurons=256)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:14.948856
+Episode: 2, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:16.431405
+Episode: 3, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:16.472758
+Episode: 4, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:16.434586
+Episode: 5, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:16.461803
+Episode: 6, Average Score: 0.02 (0.02), Score: 0.10, time: 0:00:16.539562
+Episode: 7, Average Score: 0.01 (-0.00), Score: 0.00, time: 0:00:16.569673
+Episode: 8, Average Score: 0.01 (-0.00), Score: 0.00, time: 0:00:16.564461
+Episode: 9, Average Score: 0.02 (0.01), Score: 0.09, time: 0:00:16.642724
+Episode: 10, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.611488
+Episode: 11, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.655946
+Episode: 12, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.820017
+Episode: 13, Average Score: 0.01 (-0.00), Score: 0.00, time: 0:00:16.666629
+Episode: 14, Average Score: 0.01 (-0.00), Score: 0.00, time: 0:00:16.700171
+Episode: 15, Average Score: 0.02 (0.00), Score: 0.06, time: 0:00:16.980322
+Episode: 16, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.794359
+Episode: 17, Average Score: 0.01 (-0.00), Score: 0.00, time: 0:00:16.847702
+Episode: 18, Average Score: 0.01 (-0.00), Score: 0.00, time: 0:00:17.210078
+Episode: 19, Average Score: 0.02 (0.00), Score: 0.09, time: 0:00:16.703246
+Episode: 20, Average Score: 0.02 (0.01), Score: 0.15, time: 0:00:16.931487
+Episode: 21, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.929405
+Episode: 22, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.969501
+Episode: 23, Average Score: 0.02 (-0.00), Score: 0.02, time: 0:00:16.966459
+Episode: 24, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.908453
+Episode: 25, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.889521
+Episode: 26, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.896685
+Episode: 27, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.912609
+Episode: 28, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.924393
+Episode: 29, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:17.054556
+Episode: 30, Average Score: 0.02 (0.00), Score: 0.10, time: 0:00:16.847254
+Episode: 31, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:16.965321
+Episode: 32, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:17.132857
+Episode: 33, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:17.052833
+Episode: 34, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:17.061518
+Episode: 35, Average Score: 0.02 (0.00), Score: 0.09, time: 0:00:16.989397
+Episode: 36, Average Score: 0.02 (0.00), Score: 0.16, time: 0:00:17.271527
+Episode: 37, Average Score: 0.02 (-0.00), Score: 0.00, time: 0:00:17.122571
+Episode: 38, Average Score: 0.03 (0.00), Score: 0.11, time: 0:00:17.006466
+Episode: 39, Average Score: 0.03 (0.01), Score: 0.23, time: 0:00:17.070934
+Episode: 40, Average Score: 0.03 (-0.00), Score: 0.00, time: 0:00:17.038693
+Episode: 41, Average Score: 0.03 (-0.00), Score: 0.00, time: 0:00:17.075723
+Episode: 42, Average Score: 0.03 (-0.00), Score: 0.00, time: 0:00:16.950059
+Episode: 43, Average Score: 0.03 (0.00), Score: 0.24, time: 0:00:17.137765
+Episode: 44, Average Score: 0.03 (-0.00), Score: 0.00, time: 0:00:17.029920
+Episode: 45, Average Score: 0.03 (-0.00), Score: 0.00, time: 0:00:17.168640
+Episode: 46, Average Score: 0.04 (0.01), Score: 0.31, time: 0:00:17.135990
+Episode: 47, Average Score: 0.04 (-0.00), Score: 0.00, time: 0:00:17.173786
+Episode: 48, Average Score: 0.05 (0.01), Score: 0.64, time: 0:00:17.101879
+Episode: 49, Average Score: 0.05 (-0.00), Score: 0.00, time: 0:00:17.105360
+Episode: 50, Average Score: 0.05 (0.00), Score: 0.15, time: 0:00:17.303011
+
+Average score is only 0.051 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (17/48):
+Combination(buffer_size=100000, batch_size=256, learn_rate=0.001, max_t=1000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.267286
+Episode: 2, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:19.645362
+Episode: 3, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:19.636660
+Episode: 4, Average Score: 0.08 (0.08), Score: 0.33, time: 0:00:19.968337
+Episode: 5, Average Score: 0.12 (0.04), Score: 0.28, time: 0:00:19.780644
+Episode: 6, Average Score: 0.17 (0.05), Score: 0.41, time: 0:00:19.913948
+Episode: 7, Average Score: 0.19 (0.02), Score: 0.30, time: 0:00:19.714489
+Episode: 8, Average Score: 0.22 (0.03), Score: 0.43, time: 0:00:19.782378
+Episode: 9, Average Score: 0.27 (0.05), Score: 0.64, time: 0:00:19.907315
+Episode: 10, Average Score: 0.27 (0.01), Score: 0.34, time: 0:00:19.854680
+Episode: 11, Average Score: 0.29 (0.02), Score: 0.44, time: 0:00:19.927962
+Episode: 12, Average Score: 0.27 (-0.02), Score: 0.08, time: 0:00:19.964626
+Episode: 13, Average Score: 0.30 (0.03), Score: 0.67, time: 0:00:19.927731
+Episode: 14, Average Score: 0.39 (0.09), Score: 1.54, time: 0:00:19.870379
+Episode: 15, Average Score: 0.41 (0.02), Score: 0.70, time: 0:00:19.757209
+Episode: 16, Average Score: 0.46 (0.05), Score: 1.27, time: 0:00:19.910850
+Episode: 17, Average Score: 0.52 (0.06), Score: 1.44, time: 0:00:19.980143
+Episode: 18, Average Score: 0.55 (0.03), Score: 0.98, time: 0:00:20.234914
+Episode: 19, Average Score: 0.55 (0.01), Score: 0.67, time: 0:00:19.926827
+Episode: 20, Average Score: 0.57 (0.02), Score: 0.91, time: 0:00:20.356772
+Episode: 21, Average Score: 0.57 (0.00), Score: 0.61, time: 0:00:20.024646
+Episode: 22, Average Score: 0.58 (0.01), Score: 0.80, time: 0:00:20.009152
+Episode: 23, Average Score: 0.64 (0.06), Score: 1.89, time: 0:00:20.064922
+Episode: 24, Average Score: 0.63 (-0.01), Score: 0.37, time: 0:00:20.010736
+Episode: 25, Average Score: 0.64 (0.01), Score: 0.86, time: 0:00:19.968944
+Episode: 26, Average Score: 0.64 (0.01), Score: 0.80, time: 0:00:19.986627
+Episode: 27, Average Score: 0.64 (-0.00), Score: 0.53, time: 0:00:19.865713
+Episode: 28, Average Score: 0.64 (-0.00), Score: 0.63, time: 0:00:19.907014
+Episode: 29, Average Score: 0.63 (-0.01), Score: 0.45, time: 0:00:19.960396
+Episode: 30, Average Score: 0.65 (0.02), Score: 1.22, time: 0:00:20.234049
+Episode: 31, Average Score: 0.68 (0.03), Score: 1.43, time: 0:00:20.198525
+Episode: 32, Average Score: 0.66 (-0.02), Score: 0.09, time: 0:00:20.050641
+Episode: 33, Average Score: 0.66 (0.00), Score: 0.70, time: 0:00:20.091638
+Episode: 34, Average Score: 0.67 (0.01), Score: 0.93, time: 0:00:20.216130
+Episode: 35, Average Score: 0.65 (-0.02), Score: 0.00, time: 0:00:20.503861
+Episode: 36, Average Score: 0.65 (0.00), Score: 0.67, time: 0:00:20.200300
+Episode: 37, Average Score: 0.67 (0.02), Score: 1.31, time: 0:00:20.406508
+Episode: 38, Average Score: 0.70 (0.03), Score: 1.92, time: 0:00:20.421828
+Episode: 39, Average Score: 0.71 (0.01), Score: 1.00, time: 0:00:20.601082
+Episode: 40, Average Score: 0.72 (0.01), Score: 1.24, time: 0:00:20.422202
+Episode: 41, Average Score: 0.72 (-0.00), Score: 0.62, time: 0:00:20.542665
+Episode: 42, Average Score: 0.72 (0.00), Score: 0.84, time: 0:00:20.610256
+Episode: 43, Average Score: 0.73 (0.01), Score: 1.01, time: 0:00:20.530786
+Episode: 44, Average Score: 0.77 (0.04), Score: 2.39, time: 0:00:20.764156
+Episode: 45, Average Score: 0.77 (-0.00), Score: 0.72, time: 0:00:20.601360
+Episode: 46, Average Score: 0.77 (0.00), Score: 0.91, time: 0:00:20.722203
+Episode: 47, Average Score: 0.79 (0.02), Score: 1.56, time: 0:00:20.631183
+Episode: 48, Average Score: 0.80 (0.01), Score: 1.45, time: 0:00:20.317753
+Episode: 49, Average Score: 0.82 (0.02), Score: 1.81, time: 0:00:20.633822
+Episode: 50, Average Score: 0.83 (0.01), Score: 1.19, time: 0:00:20.479269
+
+Average score is only 0.828 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (18/48):
+Combination(buffer_size=100000, batch_size=256, learn_rate=0.001, max_t=1000, neurons=256)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.604388
+Episode: 2, Average Score: 0.01 (0.01), Score: 0.03, time: 0:00:19.793615
+Episode: 3, Average Score: 0.05 (0.03), Score: 0.11, time: 0:00:19.888454
+Episode: 4, Average Score: 0.08 (0.04), Score: 0.19, time: 0:00:20.041663
+Episode: 5, Average Score: 0.15 (0.07), Score: 0.41, time: 0:00:20.122771
+Episode: 6, Average Score: 0.12 (-0.02), Score: 0.00, time: 0:00:20.298250
+Episode: 7, Average Score: 0.14 (0.02), Score: 0.25, time: 0:00:20.259663
+Episode: 8, Average Score: 0.13 (-0.01), Score: 0.07, time: 0:00:20.334219
+Episode: 9, Average Score: 0.12 (-0.01), Score: 0.00, time: 0:00:20.435776
+Episode: 10, Average Score: 0.12 (0.01), Score: 0.17, time: 0:00:20.223936
+Episode: 11, Average Score: 0.11 (-0.01), Score: 0.00, time: 0:00:20.206236
+Episode: 12, Average Score: 0.24 (0.13), Score: 1.68, time: 0:00:20.314617
+Episode: 13, Average Score: 0.27 (0.03), Score: 0.66, time: 0:00:20.240709
+Episode: 14, Average Score: 0.29 (0.01), Score: 0.43, time: 0:00:20.151691
+Episode: 15, Average Score: 0.29 (0.01), Score: 0.42, time: 0:00:20.107083
+Episode: 16, Average Score: 0.30 (0.01), Score: 0.38, time: 0:00:20.713454
+Episode: 17, Average Score: 0.35 (0.05), Score: 1.09, time: 0:00:20.372029
+Episode: 18, Average Score: 0.42 (0.07), Score: 1.65, time: 0:00:20.364359
+Episode: 19, Average Score: 0.41 (-0.01), Score: 0.24, time: 0:00:20.495215
+Episode: 20, Average Score: 0.48 (0.07), Score: 1.75, time: 0:00:20.240661
+Episode: 21, Average Score: 0.48 (0.00), Score: 0.49, time: 0:00:20.247110
+Episode: 22, Average Score: 0.51 (0.03), Score: 1.21, time: 0:00:20.375968
+Episode: 23, Average Score: 0.56 (0.05), Score: 1.70, time: 0:00:20.368885
+Episode: 24, Average Score: 0.54 (-0.02), Score: 0.09, time: 0:00:20.409651
+Episode: 25, Average Score: 0.56 (0.02), Score: 0.93, time: 0:00:20.241776
+Episode: 26, Average Score: 0.57 (0.01), Score: 0.86, time: 0:00:20.597508
+Episode: 27, Average Score: 0.63 (0.06), Score: 2.20, time: 0:00:20.666690
+Episode: 28, Average Score: 0.64 (0.01), Score: 0.84, time: 0:00:20.783489
+Episode: 29, Average Score: 0.65 (0.01), Score: 1.04, time: 0:00:20.583855
+Episode: 30, Average Score: 0.71 (0.06), Score: 2.37, time: 0:00:20.296386
+Episode: 31, Average Score: 0.69 (-0.02), Score: 0.22, time: 0:00:20.557361
+Episode: 32, Average Score: 0.70 (0.01), Score: 0.91, time: 0:00:20.473849
+Episode: 33, Average Score: 0.68 (-0.02), Score: 0.00, time: 0:00:20.401630
+Episode: 34, Average Score: 0.70 (0.02), Score: 1.47, time: 0:00:20.602342
+Episode: 35, Average Score: 0.69 (-0.01), Score: 0.20, time: 0:00:20.645042
+Episode: 36, Average Score: 0.68 (-0.01), Score: 0.41, time: 0:00:20.594097
+Episode: 37, Average Score: 0.69 (0.01), Score: 0.97, time: 0:00:20.699197
+Episode: 38, Average Score: 0.71 (0.02), Score: 1.45, time: 0:00:20.648344
+Episode: 39, Average Score: 0.71 (0.00), Score: 0.88, time: 0:00:20.745916
+Episode: 40, Average Score: 0.73 (0.01), Score: 1.31, time: 0:00:20.602595
+Episode: 41, Average Score: 0.73 (0.01), Score: 1.00, time: 0:00:20.888120
+Episode: 42, Average Score: 0.75 (0.02), Score: 1.52, time: 0:00:20.593668
+Episode: 43, Average Score: 0.77 (0.02), Score: 1.69, time: 0:00:20.740436
+Episode: 44, Average Score: 0.78 (0.01), Score: 1.11, time: 0:00:20.745473
+Episode: 45, Average Score: 0.79 (0.01), Score: 1.27, time: 0:00:20.723964
+Episode: 46, Average Score: 0.83 (0.04), Score: 2.42, time: 0:00:20.924762
+Episode: 47, Average Score: 0.84 (0.01), Score: 1.47, time: 0:00:20.752471
+Episode: 48, Average Score: 0.84 (-0.01), Score: 0.57, time: 0:00:20.736246
+Episode: 49, Average Score: 0.84 (-0.00), Score: 0.82, time: 0:00:20.662715
+Episode: 50, Average Score: 0.84 (0.01), Score: 1.22, time: 0:00:20.787934
+
+Average score is only 0.843 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (19/48):
+Combination(buffer_size=100000, batch_size=256, learn_rate=0.001, max_t=3000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.660374
+Episode: 2, Average Score: 0.10 (0.10), Score: 0.21, time: 0:00:19.764398
+Episode: 3, Average Score: 0.18 (0.07), Score: 0.32, time: 0:00:19.844487
+Episode: 4, Average Score: 0.13 (-0.04), Score: 0.00, time: 0:00:19.695879
+Episode: 5, Average Score: 0.21 (0.08), Score: 0.52, time: 0:00:19.618821
+Episode: 6, Average Score: 0.28 (0.07), Score: 0.61, time: 0:00:19.623837
+Episode: 7, Average Score: 0.39 (0.11), Score: 1.04, time: 0:00:19.811677
+Episode: 8, Average Score: 0.34 (-0.04), Score: 0.06, time: 0:00:19.572023
+Episode: 9, Average Score: 0.38 (0.04), Score: 0.67, time: 0:00:19.719539
+Episode: 10, Average Score: 0.45 (0.07), Score: 1.09, time: 0:00:19.788683
+Episode: 11, Average Score: 0.48 (0.03), Score: 0.77, time: 0:00:19.802058
+Episode: 12, Average Score: 0.45 (-0.03), Score: 0.13, time: 0:00:20.085537
+Episode: 13, Average Score: 0.47 (0.02), Score: 0.75, time: 0:00:19.899560
+Episode: 14, Average Score: 0.53 (0.06), Score: 1.29, time: 0:00:19.618564
+Episode: 15, Average Score: 0.53 (-0.00), Score: 0.47, time: 0:00:19.599854
+Episode: 16, Average Score: 0.52 (-0.01), Score: 0.34, time: 0:00:19.717283
+Episode: 17, Average Score: 0.51 (-0.01), Score: 0.32, time: 0:00:19.785674
+Episode: 18, Average Score: 0.56 (0.06), Score: 1.58, time: 0:00:19.855394
+Episode: 19, Average Score: 0.58 (0.02), Score: 0.93, time: 0:00:19.938129
+Episode: 20, Average Score: 0.60 (0.01), Score: 0.82, time: 0:00:19.897760
+Episode: 21, Average Score: 0.61 (0.02), Score: 0.92, time: 0:00:19.918780
+Episode: 22, Average Score: 0.59 (-0.02), Score: 0.13, time: 0:00:20.148918
+Episode: 23, Average Score: 0.61 (0.02), Score: 1.00, time: 0:00:19.944236
+Episode: 24, Average Score: 0.59 (-0.02), Score: 0.19, time: 0:00:20.011199
+Episode: 25, Average Score: 0.62 (0.03), Score: 1.30, time: 0:00:20.203245
+Episode: 26, Average Score: 0.62 (0.00), Score: 0.72, time: 0:00:19.884245
+Episode: 27, Average Score: 0.64 (0.02), Score: 1.21, time: 0:00:20.074945
+Episode: 28, Average Score: 0.66 (0.02), Score: 1.16, time: 0:00:20.210361
+Episode: 29, Average Score: 0.66 (-0.00), Score: 0.55, time: 0:00:19.892848
+Episode: 30, Average Score: 0.67 (0.01), Score: 0.96, time: 0:00:19.695465
+Episode: 31, Average Score: 0.68 (0.01), Score: 0.98, time: 0:00:19.701911
+Episode: 32, Average Score: 0.69 (0.01), Score: 1.06, time: 0:00:19.743335
+Episode: 33, Average Score: 0.67 (-0.02), Score: 0.00, time: 0:00:19.732238
+Episode: 34, Average Score: 0.67 (0.01), Score: 0.85, time: 0:00:19.782347
+Episode: 35, Average Score: 0.68 (0.01), Score: 0.98, time: 0:00:19.802972
+Episode: 36, Average Score: 0.70 (0.01), Score: 1.10, time: 0:00:19.841490
+Episode: 37, Average Score: 0.70 (0.01), Score: 1.00, time: 0:00:20.365078
+Episode: 38, Average Score: 0.70 (-0.01), Score: 0.46, time: 0:00:19.997189
+Episode: 39, Average Score: 0.69 (-0.00), Score: 0.55, time: 0:00:20.023816
+Episode: 40, Average Score: 0.68 (-0.01), Score: 0.29, time: 0:00:20.000762
+Episode: 41, Average Score: 0.69 (0.00), Score: 0.76, time: 0:00:19.929617
+Episode: 42, Average Score: 0.70 (0.02), Score: 1.50, time: 0:00:19.923110
+Episode: 43, Average Score: 0.69 (-0.02), Score: 0.00, time: 0:00:20.196500
+Episode: 44, Average Score: 0.73 (0.05), Score: 2.74, time: 0:00:19.907347
+Episode: 50, Average Score: 0.75 (-0.00), Score: 0.73, time: 0:00:19.799508
+
+Average score is only 0.755 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (20/48):
+Combination(buffer_size=100000, batch_size=256, learn_rate=0.001, max_t=3000, neurons=256)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.330872
+Episode: 2, Average Score: 0.03 (0.03), Score: 0.06, time: 0:00:19.717950
+Episode: 3, Average Score: 0.06 (0.03), Score: 0.11, time: 0:00:19.912678
+Episode: 4, Average Score: 0.15 (0.09), Score: 0.43, time: 0:00:19.812808
+Episode: 5, Average Score: 0.18 (0.03), Score: 0.28, time: 0:00:19.869514
+Episode: 6, Average Score: 0.34 (0.17), Score: 1.17, time: 0:00:19.851180
+Episode: 7, Average Score: 0.34 (-0.00), Score: 0.32, time: 0:00:19.886408
+Episode: 8, Average Score: 0.37 (0.03), Score: 0.59, time: 0:00:19.959897
+Episode: 9, Average Score: 0.39 (0.02), Score: 0.52, time: 0:00:20.333923
+Episode: 10, Average Score: 0.50 (0.11), Score: 1.49, time: 0:00:20.010581
+Episode: 11, Average Score: 0.52 (0.02), Score: 0.74, time: 0:00:20.188320
+Episode: 12, Average Score: 0.51 (-0.01), Score: 0.36, time: 0:00:20.300921
+Episode: 13, Average Score: 0.50 (-0.01), Score: 0.41, time: 0:00:20.179490
+Episode: 14, Average Score: 0.49 (-0.01), Score: 0.42, time: 0:00:20.071399
+Episode: 15, Average Score: 0.59 (0.10), Score: 1.92, time: 0:00:20.153022
+Episode: 16, Average Score: 0.61 (0.02), Score: 0.97, time: 0:00:20.088701
+Episode: 17, Average Score: 0.65 (0.04), Score: 1.32, time: 0:00:20.044247
+Episode: 18, Average Score: 0.65 (-0.01), Score: 0.52, time: 0:00:20.314155
+Episode: 19, Average Score: 0.70 (0.05), Score: 1.63, time: 0:00:20.077884
+Episode: 20, Average Score: 0.73 (0.04), Score: 1.43, time: 0:00:20.340689
+Episode: 21, Average Score: 0.74 (0.01), Score: 0.89, time: 0:00:20.188474
+Episode: 22, Average Score: 0.72 (-0.02), Score: 0.21, time: 0:00:20.055142
+Episode: 23, Average Score: 0.79 (0.07), Score: 2.27, time: 0:00:20.347352
+Episode: 24, Average Score: 0.80 (0.01), Score: 1.12, time: 0:00:20.680690
+Episode: 25, Average Score: 0.81 (0.01), Score: 1.05, time: 0:00:20.377224
+Episode: 26, Average Score: 0.83 (0.02), Score: 1.25, time: 0:00:20.182610
+Episode: 27, Average Score: 0.87 (0.04), Score: 2.00, time: 0:00:20.277817
+Episode: 28, Average Score: 0.85 (-0.02), Score: 0.36, time: 0:00:20.330966
+Episode: 29, Average Score: 0.84 (-0.01), Score: 0.66, time: 0:00:20.352383
+Episode: 30, Average Score: 0.84 (-0.01), Score: 0.64, time: 0:00:20.254073
+Episode: 31, Average Score: 0.96 (0.12), Score: 4.64, time: 0:00:20.393167
+Episode: 32, Average Score: 0.95 (-0.01), Score: 0.73, time: 0:00:20.382598
+Episode: 33, Average Score: 0.95 (-0.00), Score: 0.91, time: 0:00:20.595332
+Episode: 34, Average Score: 0.95 (-0.00), Score: 0.79, time: 0:00:20.553904
+Episode: 35, Average Score: 0.96 (0.02), Score: 1.49, time: 0:00:20.961129
+Episode: 36, Average Score: 0.95 (-0.01), Score: 0.65, time: 0:00:20.275420
+Episode: 37, Average Score: 0.97 (0.02), Score: 1.64, time: 0:00:20.220162
+Episode: 38, Average Score: 0.99 (0.02), Score: 1.79, time: 0:00:20.190532
+Episode: 39, Average Score: 0.98 (-0.02), Score: 0.40, time: 0:00:20.322367
+Episode: 40, Average Score: 1.01 (0.04), Score: 2.38, time: 0:00:20.505646
+Episode: 41, Average Score: 1.03 (0.02), Score: 1.66, time: 0:00:20.343412
+Episode: 42, Average Score: 1.06 (0.03), Score: 2.36, time: 0:00:20.173331
+Episode: 43, Average Score: 1.08 (0.02), Score: 1.75, time: 0:00:20.287410
+Episode: 44, Average Score: 1.08 (0.00), Score: 1.28, time: 0:00:20.323059
+Episode: 45, Average Score: 1.08 (-0.00), Score: 0.99, time: 0:00:20.221482
+Episode: 46, Average Score: 1.09 (0.01), Score: 1.73, time: 0:00:20.213827
+Episode: 47, Average Score: 1.10 (0.00), Score: 1.26, time: 0:00:20.636079
+Episode: 48, Average Score: 1.10 (0.00), Score: 1.11, time: 0:00:20.663143
+Episode: 49, Average Score: 1.10 (0.00), Score: 1.26, time: 0:00:20.303759
+Episode: 50, Average Score: 1.10 (-0.00), Score: 0.99, time: 0:00:20.435732
+Episode: 51, Average Score: 1.12 (0.02), Score: 2.03, time: 0:00:21.030646
+Episode: 52, Average Score: 1.13 (0.01), Score: 1.76, time: 0:00:20.813443
+Episode: 53, Average Score: 1.11 (-0.02), Score: 0.09, time: 0:00:20.906631
+Episode: 54, Average Score: 1.10 (-0.01), Score: 0.56, time: 0:00:21.040068
+Episode: 55, Average Score: 1.09 (-0.01), Score: 0.66, time: 0:00:20.907452
+Episode: 56, Average Score: 1.10 (0.01), Score: 1.57, time: 0:00:20.822300
+Episode: 57, Average Score: 1.10 (-0.00), Score: 0.93, time: 0:00:20.605342
+Episode: 58, Average Score: 1.12 (0.02), Score: 2.46, time: 0:00:20.577586
+Episode: 59, Average Score: 1.12 (0.00), Score: 1.29, time: 0:00:21.522398
+Episode: 60, Average Score: 1.11 (-0.01), Score: 0.58, time: 0:00:20.689155
+Episode: 61, Average Score: 1.12 (0.01), Score: 1.52, time: 0:00:20.884870
+Episode: 62, Average Score: 1.13 (0.00), Score: 1.43, time: 0:00:20.830953
+Episode: 63, Average Score: 1.12 (-0.00), Score: 1.01, time: 0:00:21.106475
+Episode: 64, Average Score: 1.12 (-0.00), Score: 1.04, time: 0:00:21.129950
+Episode: 65, Average Score: 1.13 (0.01), Score: 1.60, time: 0:00:20.807623
+Episode: 66, Average Score: 1.14 (0.01), Score: 1.51, time: 0:00:21.218858
+Episode: 67, Average Score: 1.14 (0.01), Score: 1.71, time: 0:00:21.113557
+Episode: 68, Average Score: 1.17 (0.03), Score: 2.97, time: 0:00:21.048876
+Episode: 69, Average Score: 1.18 (0.01), Score: 1.60, time: 0:00:21.111457
+Episode: 70, Average Score: 1.17 (-0.01), Score: 0.48, time: 0:00:21.453398
+Episode: 71, Average Score: 1.17 (0.00), Score: 1.24, time: 0:00:21.071776
+Episode: 72, Average Score: 1.18 (0.01), Score: 1.68, time: 0:00:20.744511
+Episode: 73, Average Score: 1.18 (0.00), Score: 1.50, time: 0:00:21.200516
+Episode: 74, Average Score: 1.18 (0.00), Score: 1.26, time: 0:00:20.937914
+Episode: 75, Average Score: 1.21 (0.03), Score: 3.30, time: 0:00:20.530036
+Episode: 76, Average Score: 1.22 (0.01), Score: 1.66, time: 0:00:20.537678
+Episode: 77, Average Score: 1.21 (-0.00), Score: 0.89, time: 0:00:20.758214
+Episode: 78, Average Score: 1.21 (0.00), Score: 1.36, time: 0:00:20.795760
+Episode: 79, Average Score: 1.22 (0.00), Score: 1.46, time: 0:00:20.825868
+Episode: 80, Average Score: 1.22 (0.00), Score: 1.58, time: 0:00:20.843038
+Episode: 81, Average Score: 1.22 (-0.00), Score: 1.06, time: 0:00:20.833337
+Episode: 82, Average Score: 1.23 (0.01), Score: 1.82, time: 0:00:21.013470
+Episode: 83, Average Score: 1.24 (0.02), Score: 2.53, time: 0:00:20.878744
+Episode: 84, Average Score: 1.24 (-0.00), Score: 0.92, time: 0:00:21.056971
+Episode: 85, Average Score: 1.26 (0.02), Score: 2.67, time: 0:00:21.062412
+Episode: 86, Average Score: 1.25 (-0.00), Score: 1.23, time: 0:00:20.908251
+Episode: 87, Average Score: 1.26 (0.00), Score: 1.35, time: 0:00:20.879975
+Episode: 88, Average Score: 1.25 (-0.01), Score: 0.79, time: 0:00:20.946028
+Episode: 89, Average Score: 1.25 (0.00), Score: 1.30, time: 0:00:20.924134
+Episode: 90, Average Score: 1.24 (-0.01), Score: 0.45, time: 0:00:20.835025
+Episode: 91, Average Score: 1.24 (-0.00), Score: 1.18, time: 0:00:20.857230
+Episode: 92, Average Score: 1.24 (0.00), Score: 1.34, time: 0:00:21.058220
+Episode: 93, Average Score: 1.24 (0.00), Score: 1.35, time: 0:00:20.997342
+Episode: 94, Average Score: 1.25 (0.01), Score: 1.88, time: 0:00:20.608324
+Episode: 95, Average Score: 1.26 (0.01), Score: 2.56, time: 0:00:20.782829
+Episode: 96, Average Score: 1.26 (-0.00), Score: 1.12, time: 0:00:20.890649
+Episode: 97, Average Score: 1.26 (-0.00), Score: 0.86, time: 0:00:20.929358
+Episode: 98, Average Score: 1.26 (-0.00), Score: 0.95, time: 0:00:20.914835
+Episode: 99, Average Score: 1.27 (0.02), Score: 3.13, time: 0:00:21.074558
+Episode: 100, Average Score: 1.27 (-0.01), Score: 0.72, time: 0:00:20.971953
+
+Average score is only 1.269 after 100 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (21/48):
+Combination(buffer_size=100000, batch_size=256, learn_rate=0.0001, max_t=1000, neurons=128)
+
+Episode: 1, Average Score: 0.00 (0.00), Score: 0.00, time: 0:00:15.230682
+Episode: 2, Average Score: 0.03 (0.03), Score: 0.06, time: 0:00:19.523278
+Episode: 3, Average Score: 0.02 (-0.01), Score: 0.00, time: 0:00:19.608182
+Episode: 4, Average Score: 0.06 (0.04), Score: 0.17, time: 0:00:19.606804
+Episode: 5, Average Score: 0.05 (-0.01), Score: 0.00, time: 0:00:19.869768
+Episode: 6, Average Score: 0.04 (-0.01), Score: 0.00, time: 0:00:19.695706
+Episode: 7, Average Score: 0.05 (0.01), Score: 0.10, time: 0:00:19.719769
+Episode: 8, Average Score: 0.04 (-0.01), Score: 0.00, time: 0:00:19.632372
+Episode: 9, Average Score: 0.05 (0.01), Score: 0.13, time: 0:00:19.524665
+Episode: 10, Average Score: 0.05 (-0.01), Score: 0.00, time: 0:00:19.576383
+Episode: 11, Average Score: 0.04 (-0.00), Score: 0.00, time: 0:00:19.557665
+Episode: 12, Average Score: 0.04 (-0.00), Score: 0.00, time: 0:00:19.543736
+Episode: 13, Average Score: 0.06 (0.02), Score: 0.28, time: 0:00:19.743730
+Episode: 14, Average Score: 0.05 (-0.00), Score: 0.00, time: 0:00:19.765859
+Episode: 15, Average Score: 0.05 (-0.00), Score: 0.00, time: 0:00:20.043544
+Episode: 16, Average Score: 0.06 (0.02), Score: 0.30, time: 0:00:19.831190
+Episode: 17, Average Score: 0.07 (0.00), Score: 0.12, time: 0:00:20.401642
+Episode: 18, Average Score: 0.10 (0.03), Score: 0.57, time: 0:00:19.786714
+Episode: 19, Average Score: 0.09 (-0.00), Score: 0.03, time: 0:00:19.883830
+Episode: 20, Average Score: 0.09 (0.00), Score: 0.14, time: 0:00:19.871720
+Episode: 21, Average Score: 0.09 (-0.00), Score: 0.00, time: 0:00:19.869836
+Episode: 22, Average Score: 0.10 (0.01), Score: 0.35, time: 0:00:19.870992
+Episode: 23, Average Score: 0.10 (-0.00), Score: 0.00, time: 0:00:20.051212
+Episode: 24, Average Score: 0.11 (0.02), Score: 0.49, time: 0:00:19.787449
+Episode: 25, Average Score: 0.12 (0.00), Score: 0.16, time: 0:00:19.794057
+Episode: 26, Average Score: 0.11 (-0.00), Score: 0.00, time: 0:00:19.912690
+Episode: 27, Average Score: 0.11 (-0.00), Score: 0.06, time: 0:00:19.824444
+Episode: 28, Average Score: 0.11 (0.00), Score: 0.24, time: 0:00:19.703607
+Episode: 29, Average Score: 0.11 (-0.00), Score: 0.00, time: 0:00:20.125271
+Episode: 30, Average Score: 0.13 (0.02), Score: 0.81, time: 0:00:19.815656
+Episode: 31, Average Score: 0.13 (-0.00), Score: 0.00, time: 0:00:20.163383
+Episode: 32, Average Score: 0.13 (-0.00), Score: 0.00, time: 0:00:19.799598
+Episode: 33, Average Score: 0.12 (-0.00), Score: 0.00, time: 0:00:19.726696
+Episode: 34, Average Score: 0.12 (0.00), Score: 0.24, time: 0:00:19.974788
+Episode: 35, Average Score: 0.12 (-0.00), Score: 0.06, time: 0:00:20.002306
+Episode: 36, Average Score: 0.12 (-0.00), Score: 0.00, time: 0:00:19.951595
+Episode: 37, Average Score: 0.12 (-0.00), Score: 0.00, time: 0:00:19.945191
+Episode: 38, Average Score: 0.12 (-0.00), Score: 0.07, time: 0:00:19.949897
+Episode: 39, Average Score: 0.11 (-0.00), Score: 0.00, time: 0:00:19.761041
+Episode: 40, Average Score: 0.11 (-0.00), Score: 0.00, time: 0:00:19.924365
+Episode: 41, Average Score: 0.11 (-0.00), Score: 0.00, time: 0:00:20.252860
+Episode: 42, Average Score: 0.11 (0.00), Score: 0.23, time: 0:00:19.803595
+Episode: 43, Average Score: 0.11 (-0.00), Score: 0.05, time: 0:00:19.939718
+Episode: 44, Average Score: 0.11 (-0.00), Score: 0.00, time: 0:00:20.108164
+Episode: 45, Average Score: 0.10 (-0.00), Score: 0.00, time: 0:00:19.996708
+Episode: 46, Average Score: 0.10 (-0.00), Score: 0.00, time: 0:00:20.296988
+Episode: 47, Average Score: 0.10 (-0.00), Score: 0.00, time: 0:00:20.298629
+Episode: 48, Average Score: 0.10 (-0.00), Score: 0.00, time: 0:00:20.073805
+Episode: 49, Average Score: 0.10 (0.01), Score: 0.39, time: 0:00:20.072312
+Episode: 50, Average Score: 0.10 (-0.00), Score: 0.00, time: 0:00:20.144430
+
+Average score is only 0.101 after 50 episodes, hence aborting this run!
+
+Saving results...
+Testing following hyperparameters (22/48):
+Combination(buffer_size=100000, batch_size=256, learn_rate=0.0001, max_t=1000, neurons=256)
+
+Episode: 1, Average Score: 0.11 (0.11), Score: 0.11, time: 0:00:15.549509
+Episode: 2, Average Score: 0.05 (-0.05), Score: 0.00, time: 0:00:19.751237
+Episode: 3, Average Score: 0.04 (-0.02), Score: 0.00, time: 0:00:19.986830
+Episode: 4, Average Score: 0.10 (0.06), Score: 0.29, time: 0:00:20.250124
+Episode: 5, Average Score: 0.23 (0.13), Score: 0.77, time: 0:00:20.075317
+Episode: 6, Average Score: 0.25 (0.02), Score: 0.33, time: 0:00:20.025047
+Episode: 7, Average Score: 0.41 (0.16), Score: 1.39, time: 0:00:19.841727
+Episode: 8, Average Score: 0.50 (0.09), Score: 1.12, time: 0:00:19.904850
+Episode: 9, Average Score: 0.60 (0.09), Score: 1.35, time: 0:00:19.956832
+Episode: 10, Average Score: 0.57 (-0.03), Score: 0.32, time: 0:00:19.887920
+Episode: 11, Average Score: 0.65 (0.08), Score: 1.46, time: 0:00:19.894250
+Episode: 12, Average Score: 0.64 (-0.01), Score: 0.49, time: 0:00:20.335779
+Episode: 13, Average Score: 0.59 (-0.05), Score: 0.00, time: 0:00:19.898205
+Episode: 14, Average Score: 0.58 (-0.01), Score: 0.48, time: 0:00:19.983983
+Episode: 15, Average Score: 0.54 (-0.04), Score: 0.00, time: 0:00:20.208301
+Episode: 16, Average Score: 0.59 (0.05), Score: 1.30, time: 0:00:20.347350
+Episode: 17, Average Score: 0.63 (0.04), Score: 1.32, time: 0:00:20.106851
+Episode: 18, Average Score: 0.60 (-0.03), Score: 0.12, time: 0:00:20.069940
+Episode: 19, Average Score: 0.60 (-0.00), Score: 0.59, time: 0:00:20.427507
+Episode: 20, Average Score: 0.63 (0.03), Score: 1.16, time: 0:00:20.273641
+Episode: 21, Average Score: 0.64 (0.01), Score: 0.81, time: 0:00:20.285664
+Episode: 22, Average Score: 0.65 (0.02), Score: 1.00, time: 0:00:20.142200
+Episode: 23, Average Score: 0.64 (-0.02), Score: 0.28, time: 0:00:19.898118
+Episode: 24, Average Score: 0.69 (0.05), Score: 1.90, time: 0:00:20.034259
+Episode: 25, Average Score: 0.71 (0.02), Score: 1.15, time: 0:00:20.092762
+Episode: 26, Average Score: 0.71 (0.00), Score: 0.76, time: 0:00:20.021151
+Episode: 27, Average Score: 0.73 (0.01), Score: 1.11, time: 0:00:20.265199
+Episode: 28, Average Score: 0.71 (-0.01), Score: 0.37, time: 0:00:20.361181
+Episode: 29, Average Score: 0.69 (-0.02), Score: 0.04, time: 0:00:20.328619
+Episode: 30, Average Score: 0.71 (0.02), Score: 1.28, time: 0:00:20.353356
+Episode: 31, Average Score: 0.69 (-0.02), Score: 0.00, time: 0:00:20.292672
+Episode: 32, Average Score: 0.71 (0.02), Score: 1.40, time: 0:00:20.428475
+Episode: 33, Average Score: 0.70 (-0.01), Score: 0.48, time: 0:00:20.348152
+Episode: 34, Average Score: 0.72 (0.01), Score: 1.19, time: 0:00:20.624900
+Episode: 35, Average Score: 0.70 (-0.02), Score: 0.16, time: 0:00:20.288724
+Episode: 36, Average Score: 0.69 (-0.01), Score: 0.48, time: 0:00:20.248359
+Episode: 37, Average Score: 0.70 (0.00), Score: 0.77, time: 0:00:20.355076
+Episode: 38, Average Score: 0.69 (-0.01), Score: 0.26, time: 0:00:20.274168
+Episode: 39, Average Score: 0.71 (0.02), Score: 1.52, time: 0:00:20.661514
+Episode: 40, Average Score: 0.69 (-0.01), Score: 0.22, time: 0:00:20.407845
+Episode: 41, Average Score: 0.68 (-0.01), Score: 0.09, time: 0:00:20.434587
+Episode: 42, Average Score: 0.69 (0.01), Score: 1.00, time: 0:00:20.486307
+Episode 43/400, t: 45/1000
