@@ -1,0 +1,64 @@
+# With Batch size 128:
+# Episode 100 Average Score: 0.26
+# Episode 200 Average Score: 0.28
+
+# With batch size 1024
+# Episode 100 Average Score: 0.51 Score: 0.51 Score: 0.32
+# Episode 200 Average Score: 0.54 Score: 0.54 Score: 0.64
+# Episode 227/1000, t: 527/700
+
+# With batch size 512, added LeakyRelu to Actor and Critic, added BatchNormalization to Critic as well
+# Episode 135: Average Score: 0.01, Score: 0.12, time: 0:00:16.574757
+# Episode 136: Average Score: 0.01, Score: 0.11, time: 0:00:16.618869
+
+# With 256-128 network and clip grad norm
+
+# With 256-256 network and Batch size 512 and clip grad norm
+
+# With 512-256 network and Batch size 512 and clip grad norm
+# Episode: 49, Average Score: 0.01, Score: 0.00, time: 0:00:09.774367
+# Episode: 50, Average Score: 0.01, Score: 0.00, time: 0:00:09.735235
+
+# With 256-256 network, Having 2 and 1, respectively, BN layers, LR 3e-4
+# Episode: 110, Average Score: 0.52, Score: 1.04, time: 0:00:10.834626
+# Episode: 111, Average Score: 0.52, Score: 0.75, time: 0:00:10.582016
+
+# With N_TIME_STEPS = 1 (every n time step do update), N_LEARN_UPDATES = 1 (number of learning updates)
+# Episode: 127, Average Score: 0.56, Score: 0.74, time: 0:00:18.512459
+# Episode: 128, Average Score: 0.57, Score: 1.13, time: 0:00:18.819942
+# Episode: 129, Average Score: 0.57, Score: 0.36, time: 0:00:18.758192
+
+# After bugfix states<->state, actions<->action
+# Episode: 70, Average Score: 0.25, Score: 0.50, time: 0:00:13.096068
+# Episode: 71, Average Score: 0.25, Score: 0.00, time: 0:00:13.141475
+
+# Batch size 128
+# Episode: 122, Average Score: 1.84, Score: 2.91, time: 0:00:10.793078
+# Episode: 123, Average Score: 1.84, Score: 0.18, time: 0:00:10.809684
+# Episode: 124, Average Score: 1.86, Score: 1.87, time: 0:00:10.787494
+
+# BN only after first Actor FC layer, batch size 256
+# Episode: 78, Average Score: 1.09 (0.00), Score: 1.27, time: 0:00:12.845127
+# Episode: 79, Average Score: 1.09 (0.00), Score: 1.26, time: 0:00:12.658425
+
+# 128-128 architecture, BN after both FC layers again, hardcopy weights in agent.init(), batch size 128
+# Episode: 57, Average Score: 0.68 (0.00), Score: 0.76, time: 0:00:10.834294
+# Episode: 58, Average Score: 0.72 (0.04), Score: 3.03, time: 0:00:10.767410
+# Episode: 59, Average Score: 0.72 (0.00), Score: 0.93, time: 0:00:11.326064
+
+# LR Actor 1e-4, Critic 1e-3
+# pisode: 168, Average Score: 1.93 (0.02), Score: 3.52, time: 0:00:10.679575
+# Episode: 169, Average Score: 1.93 (-0.00), Score: 3.11, time: 0:00:10.672315
+
+# BatchNorm1 only, 1e5 Buffer size, LR 2e-4 (for both), removed N_TIME_STEPS and N_LEARN_UPDATES code, noise sigma 0.1
+# Episode: 638, Average Score: 24.34 (0.05), Score: 25.25, time: 0:00:09.736518
+# Episode: 639, Average Score: 24.41 (0.07), Score: 27.32, time: 0:00:09.759294
+# Episode: 640, Average Score: 24.42 (0.01), Score: 27.55, time: 0:00:09.756952
+
+# 1e6 Buffer size
+# Episode: 53, Average Score: 1.51 (0.01), Score: 1.92, time: 0:00:10.581242
+# Episode: 54, Average Score: 1.55 (0.04), Score: 3.89, time: 0:00:10.606889
+
+# 1e5 Buffer, LR Critic 1e-3
+# Episode: 81, Average Score: 1.51 (0.02), Score: 3.22, time: 0:00:10.076896
+# Episode: 82, Average Score: 1.51 (-0.00), Score: 1.31, time: 0:00:10.065261
