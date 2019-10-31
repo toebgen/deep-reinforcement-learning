@@ -1,0 +1,33 @@
+Testing following hyperparameters (43/48):
+Combination(buffer_size=10000000, batch_size=256, learn_rate=0.001, t_max=3000, neurons=128)
+Episode: 10, Average Score: 0.32, Score: 0.56, time: 0:00:21.672011
+Episode: 20, Average Score: 0.37, Score: 0.19, time: 0:00:25.505669
+Episode: 30, Average Score: 0.50, Score: 1.65, time: 0:00:30.469980
+Episode: 40, Average Score: 0.81, Score: 1.92, time: 0:00:35.663340
+Episode: 50, Average Score: 1.22, Score: 2.96, time: 0:00:40.501980
+Episode: 60, Average Score: 1.56, Score: 3.73, time: 0:00:45.807096
+Episode: 70, Average Score: 1.92, Score: 3.72, time: 0:00:50.708950
+Episode: 80, Average Score: 2.17, Score: 3.90, time: 0:00:55.982343
+
+Testing following hyperparameters (44/48):
+Combination(buffer_size=10000000, batch_size=256, learn_rate=0.001, t_max=3000, neurons=256)
+Episode: 10, Average Score: 0.47, Score: 0.54, time: 0:00:22.628740
+Episode: 20, Average Score: 1.09, Score: 2.24, time: 0:00:26.294112
+Episode: 30, Average Score: 1.77, Score: 3.96, time: 0:00:31.098468
+Episode: 40, Average Score: 2.60, Score: 5.43, time: 0:00:36.166855
+Episode: 50, Average Score: 3.52, Score: 8.23, time: 0:00:40.871257
+Episode: 60, Average Score: 4.46, Score: 10.27, time: 0:00:46.378628
+Episode: 70, Average Score: 5.33, Score: 11.40, time: 0:00:51.258949
+Episode: 80, Average Score: 6.26, Score: 13.00, time: 0:00:56.321592
+Episode: 90, Average Score: 7.16, Score: 15.52, time: 0:01:01.623229
+Episode: 100, Average Score: 8.09, Score: 17.96, time: 0:01:05.983418
+Episode: 110, Average Score: 9.83, Score: 18.06, time: 0:01:11.092231
+Episode: 120, Average Score: 11.41, Score: 14.97, time: 0:01:16.048861
+Episode: 130, Average Score: 12.71, Score: 15.21, time: 0:01:20.912698
+Episode: 140, Average Score: 13.70, Score: 13.54, time: 0:01:25.720784
+Episode: 150, Average Score: 14.26, Score: 13.67, time: 0:01:30.360134
+Episode: 170, Average Score: 15.20, Score: 16.77, time: 0:01:41.185133
+Episode: 180, Average Score: 15.34, Score: 14.11, time: 0:02:33.815713
+Episode: 190, Average Score: 15.28, Score: 13.51, time: 0:02:41.712778
+Episode: 200, Average Score: 14.99, Score: 14.48, time: 0:02:30.486623
+Episode: 220, Average Score: 14.12, Score: 13.30, time: 0:02:46.839219
