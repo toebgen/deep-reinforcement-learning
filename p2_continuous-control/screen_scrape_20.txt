@@ -31,3 +31,38 @@ Episode: 180, Average Score: 15.34, Score: 14.11, time: 0:02:33.815713
 Episode: 190, Average Score: 15.28, Score: 13.51, time: 0:02:41.712778
 Episode: 200, Average Score: 14.99, Score: 14.48, time: 0:02:30.486623
 Episode: 220, Average Score: 14.12, Score: 13.30, time: 0:02:46.839219
+
+
+agent = Agent(state_size,
+              action_size,
+              n_agents,
+              buffer_size=int(1e7),
+              batch_size=256,
+              gamma=.99,
+              tau=1e-3,
+              lr_actor=1e-4,
+              lr_critic=1e-3,
+              weight_decay=0.0,
+              neurons=128,
+              random_seed=2)
+# Run training
+scores, average_score, t_episode = ddpg(env, brain_name, agent, n_agents,
+                                        n_episodes=2000, t_max=3000)
+                                        Episode: 10, Average Score: 0.16, Score: 0.07, time: 0:00:22.218936
+Episode: 20, Average Score: 0.32, Score: 0.96, time: 0:00:25.118510
+Episode: 30, Average Score: 0.55, Score: 1.14, time: 0:00:31.218591
+Episode: 40, Average Score: 0.94, Score: 2.56, time: 0:00:36.212137
+Episode: 50, Average Score: 1.30, Score: 2.52, time: 0:00:41.199702
+Episode: 60, Average Score: 1.60, Score: 4.39, time: 0:00:46.547575
+Episode: 70, Average Score: 1.99, Score: 4.79, time: 0:00:51.204530
+Episode: 80, Average Score: 2.37, Score: 5.47, time: 0:00:56.591931
+Episode: 90, Average Score: 2.71, Score: 5.92, time: 0:01:01.455114
+Episode: 100, Average Score: 3.02, Score: 6.02, time: 0:01:07.415207
+Episode: 110, Average Score: 3.68, Score: 7.02, time: 0:01:09.057280
+Episode: 120, Average Score: 4.26, Score: 5.65, time: 0:01:13.337778
+Episode: 130, Average Score: 4.83, Score: 6.06, time: 0:01:18.318711
+Episode: 140, Average Score: 5.34, Score: 7.09, time: 0:01:22.313764
+Episode: 150, Average Score: 5.78, Score: 7.51, time: 0:01:27.986424
+Episode: 160, Average Score: 6.26, Score: 7.86, time: 0:01:32.298314
+Episode: 170, Average Score: 6.62, Score: 7.02, time: 0:01:37.243206
+Episode 179/2000, t: 975/30006.92, Score: 8.38, time: 0:01:40.139990

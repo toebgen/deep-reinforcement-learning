@@ -13,10 +13,11 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 class Agent():
     """Interacts with and learns from the environment."""
     
-    def __init__(self, state_size, action_size, n_agents=1,
-                 buffer_size=int(1e6), batch_size=128, gamma=0.99,
-                 tau=1e-3, lr_actor=1e-4, lr_critic=1e-4,
-                 weight_decay=0, neurons=128, random_seed=1):
+    def __init__(self, state_size, action_size, n_agents=None,
+                 buffer_size=None, batch_size=None, gamma=None,
+                 tau=None, lr_actor=None, lr_critic=None,
+                 weight_decay=None, neurons_fc1=None, neurons_fc2=None,
+                 random_seed=1):
         """Initialize an Agent object.
         
         Params
@@ -47,21 +48,22 @@ class Agent():
         self.lr_actor = lr_actor
         self.lr_critic = lr_critic
         self.weight_decay = weight_decay
-        self.neurons = neurons
+        self.neurons_fc1 = neurons_fc1
+        self.neurons_fc2 = neurons_fc2
 
         # Actor Network (w/ Target Network)
         self.actor_local = Actor(state_size, action_size, seed=random_seed,
-            fc1_units=neurons, fc2_units=neurons).to(device)
+            fc1_units=neurons_fc1, fc2_units=neurons_fc2).to(device)
         self.actor_target = Actor(state_size, action_size, seed=random_seed,
-            fc1_units=neurons, fc2_units=neurons).to(device)
+            fc1_units=neurons_fc1, fc2_units=neurons_fc2).to(device)
         self.actor_optimizer = optim.Adam(self.actor_local.parameters(),
             lr=lr_actor)
 
         # Critic Network (w/ Target Network)
         self.critic_local = Critic(state_size, action_size, seed=random_seed,
-            fc1_units=neurons, fc2_units=neurons).to(device)
+            fc1_units=neurons_fc1, fc2_units=neurons_fc2).to(device)
         self.critic_target = Critic(state_size, action_size, seed=random_seed,
-            fc1_units=neurons, fc2_units=neurons).to(device)
+            fc1_units=neurons_fc1, fc2_units=neurons_fc2).to(device)
         self.critic_optimizer = optim.Adam(self.critic_local.parameters(),
             lr=lr_critic, weight_decay=weight_decay)
         
@@ -80,6 +82,7 @@ class Agent():
         """Save experience in replay memory, and use random sample from buffer to learn."""
         # Save experience / reward
         for state, action, reward, next_state, done in zip(state, action, reward, next_state, done):
+            # Diff...
             self.memory.add(state, action, reward, next_state, done)
         
         # Learn, if enough samples are available in memory
@@ -88,16 +91,16 @@ class Agent():
             experiences = self.memory.sample()
             self.learn(experiences, self.gamma)
 
-    def act(self, state, add_noise=True):
+    def act(self, states, add_noise=True):
         """Returns actions for given state as per current policy."""
-        state = torch.from_numpy(state).float().to(device)
+        states = torch.from_numpy(states).float().to(device)
         self.actor_local.eval()
         with torch.no_grad():
-            action = self.actor_local(state).cpu().data.numpy()
+            actions = self.actor_local(states).cpu().data.numpy()
         self.actor_local.train()
         if add_noise:
-            action += self.noise.sample()
-        return np.clip(action, -1, 1)
+            actions += self.noise.sample()
+        return np.clip(actions, -1, 1)
 
     def reset(self):
         self.noise.reset()
@@ -219,6 +222,7 @@ class OUNoise:
         self.theta = theta
         self.sigma = sigma
         self.seed = random.seed(seed)
+        self.size = size
         self.reset()
 
     def reset(self):
@@ -228,7 +232,7 @@ class OUNoise:
     def sample(self):
         """Update internal state and return it as a noise sample."""
         x = self.state
-        dx = self.theta * (self.mu - x) \
-            + self.sigma * np.array([random.random() for i in range(len(x))])
+        dx = self.theta * (self.mu - x) + \
+            self.sigma * np.random.standard_normal(self.size)
         self.state = x + dx
         return self.state
