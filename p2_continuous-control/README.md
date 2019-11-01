@@ -38,4 +38,4 @@ The task is episodic, and in order to solve the environment, the agents must get
 
 ### Approach
 
-The approach of solving this problem is described in the [notebook](Continuous_Control.ipynb).
+The approach of solving this problem is described in the [notebook](Report.ipynb).
